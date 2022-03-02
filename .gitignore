@@ -1,4 +1,7 @@
+*.sln
+*.iml
+*.user
+gradle
 .gradle
 build
-gradle
 .idea
