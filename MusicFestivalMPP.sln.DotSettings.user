@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\USer\AppData\Local\JetBrains\Rider2021.3\resharper-host\temp\Rider\vAny\CoverageData\_MusicFestivalMPP.46393259\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=029850f8_002Dc9ea_002D45a8_002D8da9_002D7223b6b7e747/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EntityTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.EntityTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.UserTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.ArtistTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.PerformanceTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
