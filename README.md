@@ -1,5 +1,5 @@
 # MusicFestivalMPP
-:ticket: 
+:ticket: :guitar: :ferris_wheel: :notes:
 ### Cerinta problemei 2:
 *Organizatorii unui festival de muzica au mai multe oficii în țară unde se vând bilete la festival. La fiecare oficiu 
 se folosește un sistem soft pentru a vinde bilete. Persoana de la fiecare oficiu folosește o aplicație desktop cu 
@@ -15,9 +15,10 @@ numele cumpărătorului și numărul de locuri dorite. După vânzare toți anga
 lista actualizată a spectacolelor. Dacă la un spectacol nu mai sunt locuri disponibile, spectacolul va fi 
 afișat cu culoare roșie. 
 4. ***Logout.*** <br><br>
-### Structura repository-ului:
+### Structura repository-ului: :computer:
 In acest repository exista trei branch-uri: 
 1. main
 2. ***lab01-java***, pentru implementarea primei teme de casa, in limbajul Java;
 3. ***lab01-c#***, pentru implementarea primei teme de casa,  in limbajul C#.
+*Cele doua implementari contin modelul, interfetele pentru repository si teste.*
 
