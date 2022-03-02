@@ -1,2 +1,7 @@
 .idea
 *.sln
+*.iml
+*.user
+.gradle
+build
+gradle
