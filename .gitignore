@@ -5,3 +5,8 @@
 .gradle
 build
 gradle
+Tests/bin
+Tests/obj
+*.csproj
+MusicFestivalMPP/bin
+MusicFestivalMPP/obj

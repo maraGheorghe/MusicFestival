@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MusicFestivalMPP\\MusicFestivalMPP\\MusicFestivalMPP.csproj",
+      "projectUniqueName": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MPP\\MusicFestivalMPP-C#\\MusicFestivalMPP\\MusicFestivalMPP.csproj",
       "projectName": "MusicFestivalMPP",
-      "projectPath": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MusicFestivalMPP\\MusicFestivalMPP\\MusicFestivalMPP.csproj",
+      "projectPath": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MPP\\MusicFestivalMPP-C#\\MusicFestivalMPP\\MusicFestivalMPP.csproj",
       "packagesPath": "C:\\Users\\USer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MusicFestivalMPP\\MusicFestivalMPP\\obj\\",
+      "outputPath": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MPP\\MusicFestivalMPP-C#\\MusicFestivalMPP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gQxQA4L2Ijpz5xam9yE87MDxQ7aRNvOOnSEvG5Aurf6QFVQwDMd2kROHQ4iMkVgIMSOiX4ivRllb8I+sRvGY5g==",
+  "dgSpecHash": "WwIY9bGeMSzxh0Ohm8MG9i01ZHljc7dsRsjrUprPjMIj9KQtOnuDayO8HaXobzJ+Y11QcjrxlMHGiwo1eu6NLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MusicFestivalMPP\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\USer\\Desktop\\Semestrul 4\\MPP\\Laboratoare\\MPP\\MusicFestivalMPP-C#\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USer\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\USer\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
