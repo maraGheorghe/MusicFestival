@@ -13,12 +13,10 @@ public class PerformanceTest
     [SetUp]
     public void Setup()
     {
-        List<Artist> artists = new List<Artist>();
-        artists.Add(new Artist("Kygo"));
-        artists.Add(new Artist("21P"));
+        Artist artist = new Artist("21P");
         DateOnly date = new DateOnly(2022, 8, 26);
-        _performance = new Performance(1, new DateOnly(2022, 8, 26), "CJ", 100, 200, artists);
-        _performance0 = new Performance(date, "CJ", 100, 200, artists);
+        _performance = new Performance(1, new DateOnly(2022, 8, 26), "CJ", 100, 200, artist);
+        _performance0 = new Performance(date, "CJ", 100, 200, artist);
     }
 
     [Test]
@@ -78,15 +76,15 @@ public class PerformanceTest
     [Test]
     public void GetArtists()
     {
-        List<Artist> artists = new List<Artist> {new Artist("Kygo"), new Artist("21P")};
-        Assert.AreEqual(_performance.Artists, artists);
+        Artist artist = new Artist("21P");
+        Assert.AreEqual(_performance.Artist, artist);
     }
     
     [Test]
     public void SetArtists()
     {
-        List<Artist> artists = new List<Artist> {new Artist("Kygo"), new Artist("21Pillows")};
-        _performance.Artists = artists;
-        Assert.AreEqual(_performance.Artists, artists);
+        Artist artist = new Artist("Kygo");
+        _performance.Artist = artist;
+        Assert.AreEqual(_performance.Artist, artist);
     }
 }
