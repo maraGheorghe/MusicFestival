@@ -16,10 +16,8 @@ class PerformanceTest {
     @BeforeEach
     void setUp() {
         Artist artist = new Artist("Kygo");
-        Artist artist1 = new Artist("2Pilots");
-        List<Artist> artists = new ArrayList<>(List.of(artist, artist1));
-        performance = new Performance(LocalDate.now(), "Cluj_Napoca", 206, 1678, artists);
-        performance = new Performance(1L, LocalDate.now(), "Cluj-Napoca", 206, 1678, artists);
+        performance = new Performance(LocalDate.now(), "Cluj_Napoca", 206, 1678, artist);
+        performance = new Performance(1L, LocalDate.now(), "Cluj-Napoca", 206, 1678, artist);
     }
 
     @Test
@@ -69,17 +67,13 @@ class PerformanceTest {
     @Test
     void getArtists() {
         Artist artist = new Artist("Kygo");
-        Artist artist1 = new Artist("2Pilots");
-        List<Artist> artists = new ArrayList<>(List.of(artist, artist1));
-        assertEquals(performance.getArtists(), artists);
+        assertEquals(performance.getArtist(), artist);
     }
 
     @Test
     void setArtists() {
-        Artist artist = new Artist("Deftones");
-        Artist artist1 = new Artist("2Pilots");
-        List<Artist> artists = new ArrayList<>(List.of(artist, artist1));
-        performance.setArtists(artists);
-        assertEquals(performance.getArtists(), artists);
+        Artist artist = new Artist("2Pilots");
+        performance.setArtists(artist);
+        assertEquals(performance.getArtist(), artist);
     }
 }

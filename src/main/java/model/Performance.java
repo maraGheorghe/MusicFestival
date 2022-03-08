@@ -8,23 +8,23 @@ public class Performance extends Entity {
     private String place;
     private Integer noOfAvailableTickets;
     private Integer noOfSoldTickets;
-    private List<Artist> artists;
+    private Artist artist;
 
-    public Performance(LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, List<Artist> artists) {
+    public Performance(LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, Artist artist) {
         this.date = date;
         this.place = place;
         this.noOfAvailableTickets = noOfAvailableTickets;
         this.noOfSoldTickets = noOfSoldTickets;
-        this.artists = artists;
+        this.artist = artist;
     }
 
-    public Performance(Long performanceID, LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, List<Artist> artists) {
+    public Performance(Long performanceID, LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, Artist artist) {
         setID(performanceID);
         this.date = date;
         this.place = place;
         this.noOfAvailableTickets = noOfAvailableTickets;
         this.noOfSoldTickets = noOfSoldTickets;
-        this.artists = artists;
+        this.artist = artist;
     }
 
     public LocalDate getDate() {
@@ -59,11 +59,11 @@ public class Performance extends Entity {
         this.noOfSoldTickets = noOfSoldTickets;
     }
 
-    public List<Artist> getArtists() {
-        return artists;
+    public Artist getArtist() {
+        return artist;
     }
 
-    public void setArtists(List<Artist> artists) {
-        this.artists = artists;
+    public void setArtists(Artist artist) {
+        this.artist = artist;
     }
 }
