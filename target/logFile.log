@@ -1,0 +1,18 @@
+09 Mar 2022 12:52:20,283 INFO  repository.RepositoryPerformance 23 <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+09 Mar 2022 12:52:20,292 TRACE repository.RepositoryPerformance 29 save - Enter Saving performance: model.Performance@1f 
+09 Mar 2022 12:52:20,292 TRACE util.JDBCUtils 44 getConnection - Enter
+09 Mar 2022 12:52:20,292 TRACE util.JDBCUtils 24 getNewConnection - Enter
+09 Mar 2022 12:52:20,292 INFO  util.JDBCUtils 28 getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+09 Mar 2022 12:52:20,428 TRACE util.JDBCUtils 39 getNewConnection - Exit
+09 Mar 2022 12:52:20,429 TRACE util.JDBCUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+09 Mar 2022 12:52:20,437 TRACE repository.RepositoryPerformance 38 save - Saved 1 instances.
+09 Mar 2022 12:52:20,438 TRACE repository.RepositoryPerformance 44 save - Exit
+Date: 09 Mar 2022 12:55:58,685 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 09 Mar 2022 12:55:58,694 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 09 Mar 2022 12:55:58,695 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 09 Mar 2022 12:55:58,695 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 09 Mar 2022 12:55:58,695 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 09 Mar 2022 12:55:58,862 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 09 Mar 2022 12:55:58,863 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 09 Mar 2022 12:55:58,868 Level: TRACE Class: repository.RepositoryPerformance Line: 38 Message: save - Saved 1 instances.
+Date: 09 Mar 2022 12:55:58,869 Level: TRACE Class: repository.RepositoryPerformance Line: 44 Message: save - Exit

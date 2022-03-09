@@ -9,10 +9,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TicketTest {
     private Ticket ticket;
+    private Ticket ticket0;
 
     @BeforeEach
     void setUp() {
-        ticket = new Ticket(new Performance(1L, LocalDate.now(), "Cluj-Napoca", 206, 1678, new Artist("Kygo")), "owner", 3);
+        ticket = new Ticket(new Performance(1L, LocalDate.now(), "Cluj-Napoca", 206, 1678, "Kygo"), "owner", 3);
+        ticket0 = new Ticket(1L, new Performance(1L, LocalDate.now(), "Cluj-Napoca", 206, 1678, "Kygo"), "owner", 33);
     }
 
     @Test
@@ -22,7 +24,7 @@ class TicketTest {
 
     @Test
     void setPerformance() {
-        ticket.setPerformance(new Performance(2L, LocalDate.now(), "Cluj-Napoca", 206, 1678, new Artist("Kygo")));
+        ticket.setPerformance(new Performance(2L, LocalDate.now(), "Cluj-Napoca", 206, 1678, "Kygo"));
         assertEquals(ticket.getPerformance().getID(), 2L);
     }
 

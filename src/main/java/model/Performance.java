@@ -8,9 +8,9 @@ public class Performance extends Entity {
     private String place;
     private Integer noOfAvailableTickets;
     private Integer noOfSoldTickets;
-    private Artist artist;
+    private String artist;
 
-    public Performance(LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, Artist artist) {
+    public Performance(LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, String artist) {
         this.date = date;
         this.place = place;
         this.noOfAvailableTickets = noOfAvailableTickets;
@@ -18,7 +18,7 @@ public class Performance extends Entity {
         this.artist = artist;
     }
 
-    public Performance(Long performanceID, LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, Artist artist) {
+    public Performance(Long performanceID, LocalDate date, String place, Integer noOfAvailableTickets, Integer noOfSoldTickets, String artist) {
         setID(performanceID);
         this.date = date;
         this.place = place;
@@ -59,11 +59,11 @@ public class Performance extends Entity {
         this.noOfSoldTickets = noOfSoldTickets;
     }
 
-    public Artist getArtist() {
+    public String getArtist() {
         return artist;
     }
 
-    public void setArtists(Artist artist) {
+    public void setArtists(String artist) {
         this.artist = artist;
     }
 }

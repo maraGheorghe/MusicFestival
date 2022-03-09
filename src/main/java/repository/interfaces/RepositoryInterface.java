@@ -1,4 +1,4 @@
-package repository;
+package repository.interfaces;
 
 import model.Entity;
 
@@ -11,7 +11,7 @@ public interface RepositoryInterface<E extends Entity> {
 
     Optional<E> find(Long ID);
 
-    Optional<E> delete(Long ID);
+    Optional<E> delete(E entity);
 
     Optional<E> update(E entity);
 

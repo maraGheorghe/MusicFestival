@@ -1,6 +1,7 @@
-package repository;
+package repository.interfaces;
 
 import model.User;
+import repository.interfaces.RepositoryInterface;
 
 import java.util.Optional;
 

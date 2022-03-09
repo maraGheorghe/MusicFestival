@@ -1,6 +1,7 @@
-package repository;
+package repository.interfaces;
 
 import model.Performance;
+import repository.interfaces.RepositoryInterface;
 
 import java.time.LocalDate;
 import java.util.List;
