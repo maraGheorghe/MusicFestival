@@ -26,7 +26,8 @@ public class StartApplication {
         System.out.println(performance.getArtist());
         RepositoryTicket repositoryTicket = new RepositoryTicket(properties);
        // repositoryTicket.save(new Ticket(performance, "Stefan", 3));
-        repositoryTicket.delete(new Ticket(13L, performance, "Emilia", 2));
+        System.out.println(repositoryTicket.getPerformanceOfTicket(9L).getArtist());
+        // repositoryTicket.delete(new Ticket(14L, performance, "Emilia", 2));
         System.out.println(repositoryPerformance.find(2L).get().getNoOfAvailableSeats());
     }
 }

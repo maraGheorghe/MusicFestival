@@ -131,18 +131,34 @@ public class RepositoryTicket implements RepositoryInterfaceTicket {
         return tickets;
     }
 
+    private int getNumberOfSoldTickets(Long performanceID) {
+        logger.traceEntry("Counting the number of sold tickets for the performance witd ID: {}.", performanceID);
+        Connection connection = jdbcUtils.getConnection();
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select sum(seats) as count from tickets where performance_id = ?")) {
+            preparedStatement.setLong(1, performanceID);
+            try(ResultSet resultSet = preparedStatement.executeQuery()) {
+                if(resultSet.next())
+                    return resultSet.getInt(1);
+            }
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.println("DB error: " + e);
+        }
+        return 0;
+    }
+
     @Override
     public Performance getPerformanceOfTicket(Long ticketID) {
         logger.traceEntry("Finding performance for the ticket with ID: {}.", ticketID);
         Connection connection = jdbcUtils.getConnection();
-        try(PreparedStatement preparedStatement = connection.prepareStatement("select p.performance_id, p.performance_date, p.place, p.no_of_seats, p.no_of_sold_seats, p.artist from performances p inner join tickets t on p.performance_id = t.performance_id where ticket_id = ?")) {
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select p.performance_id, p.performance_date, p.place, p.no_of_seats, p.artist from performances p inner join tickets t on p.performance_id = t.performance_id where ticket_id = ?")) {
             preparedStatement.setLong(1, ticketID);
             try(ResultSet resultSet = preparedStatement.executeQuery()) {
                 if(resultSet.next()) {
                     Long performanceID = resultSet.getLong("performance_id");
                     LocalDate date = resultSet.getDate("performance_date").toLocalDate();
                     String place = resultSet.getString("place");
-                    int sold = resultSet.getInt("no_of_sold_seats");
+                    int sold = getNumberOfSoldTickets(performanceID);
                     int available = resultSet.getInt("no_of_seats") - sold;
                     String artist = resultSet.getString("artist");
                     Performance performance = new Performance(performanceID, date, place, available, sold, artist);
