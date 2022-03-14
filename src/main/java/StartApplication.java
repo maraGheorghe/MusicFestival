@@ -20,14 +20,14 @@ public class StartApplication {
         }
 
         RepositoryPerformance repositoryPerformance = new RepositoryPerformance(properties);
-        Performance performance = new Performance(LocalDate.of(2022, 8, 26), "Bontida", 20, 0, "Scorpions");
+        Performance performance = new Performance(LocalDate.of(2022, 8, 26), "Bontida", 50, 0, "Scorpions");
        // repositoryPerformance.save(performance);
-        performance = repositoryPerformance.find(2L).get();
+        performance = repositoryPerformance.find(14L).get();
         System.out.println(performance.getArtist());
         RepositoryTicket repositoryTicket = new RepositoryTicket(properties);
        // repositoryTicket.save(new Ticket(performance, "Stefan", 3));
-        System.out.println(repositoryTicket.getPerformanceOfTicket(9L).getArtist());
+        System.out.println(repositoryTicket.getPerformanceOfTicket(15L).getArtist());
         // repositoryTicket.delete(new Ticket(14L, performance, "Emilia", 2));
-        System.out.println(repositoryPerformance.find(2L).get().getNoOfAvailableSeats());
+        System.out.println(repositoryPerformance.find(22L).get().getDate());
     }
 }

@@ -7,7 +7,10 @@ import repository.interfaces.RepositoryInterfacePerformance;
 import util.JDBCUtils;
 
 import java.sql.*;
+import java.text.SimpleDateFormat;
+import java.time.DateTimeException;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -29,7 +32,7 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
         logger.traceEntry("Saving performance: {} ", performance);
         Connection connection = jdbcUtils.getConnection();
         try(PreparedStatement preparedStatement = connection.prepareStatement("insert into performances (performance_date, place, no_of_seats, artist) values (?, ?, ?, ?)")) {
-            preparedStatement.setDate(1, Date.valueOf(performance.getDate()));
+            preparedStatement.setString(1, performance.getDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
             preparedStatement.setString(2, performance.getPlace());
             preparedStatement.setInt(3, performance.getNoOfAvailableSeats() + performance.getNoOfSoldSeats());
             preparedStatement.setString(4, performance.getArtist());
@@ -103,7 +106,7 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
         logger.traceEntry("Updating performance: {} ", performance);
         Connection connection = jdbcUtils.getConnection();
         try(PreparedStatement preparedStatement = connection.prepareStatement("update performances set performance_date = ?, place = ?, no_of_seats = ?, artist = ? where performance_id = ?")) {
-            preparedStatement.setDate(1, Date.valueOf(performance.getDate()));
+            preparedStatement.setString(1, performance.getDate().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
             preparedStatement.setString(2, performance.getPlace());
             preparedStatement.setInt(3, performance.getNoOfAvailableSeats() + performance.getNoOfSoldSeats());
             preparedStatement.setString(4, performance.getArtist());
@@ -141,7 +144,7 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
     }
 
     private Performance extractPerformance(ResultSet resultSet, Long performance_id) throws SQLException {
-        LocalDate date = resultSet.getDate("performance_date").toLocalDate();
+        LocalDate date = LocalDate.parse(resultSet.getString("performance_date"));
         String place = resultSet.getString("place");
         int sold = getNumberOfSoldTickets(performance_id);
         int available = resultSet.getInt("no_of_seats") - sold;

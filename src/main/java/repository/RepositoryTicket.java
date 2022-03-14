@@ -156,7 +156,7 @@ public class RepositoryTicket implements RepositoryInterfaceTicket {
             try(ResultSet resultSet = preparedStatement.executeQuery()) {
                 if(resultSet.next()) {
                     Long performanceID = resultSet.getLong("performance_id");
-                    LocalDate date = resultSet.getDate("performance_date").toLocalDate();
+                    LocalDate date = LocalDate.parse(resultSet.getString("performance_date"));
                     String place = resultSet.getString("place");
                     int sold = getNumberOfSoldTickets(performanceID);
                     int available = resultSet.getInt("no_of_seats") - sold;
