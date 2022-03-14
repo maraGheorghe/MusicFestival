@@ -16,3 +16,776 @@ Date: 09 Mar 2022 12:55:58,862 Level: TRACE Class: util.JDBCUtils Line: 39 Messa
 Date: 09 Mar 2022 12:55:58,863 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
 Date: 09 Mar 2022 12:55:58,868 Level: TRACE Class: repository.RepositoryPerformance Line: 38 Message: save - Saved 1 instances.
 Date: 09 Mar 2022 12:55:58,869 Level: TRACE Class: repository.RepositoryPerformance Line: 44 Message: save - Exit
+Date: 11 Mar 2022 17:19:24,801 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:19:24,809 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 11 Mar 2022 17:19:24,809 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:24,810 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:19:24,811 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:19:24,959 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:19:24,959 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:19:24,962 Level: ERROR Class: repository.RepositoryPerformance Line: 39 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns)
+Date: 11 Mar 2022 17:19:24,965 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:19:24,967 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:19:24,967 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:24,967 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:19:24,968 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:19:24,969 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:19:24,969 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c137fd5)
+Date: 11 Mar 2022 17:19:24,969 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table tickets has no column named id_performance)
+Date: 11 Mar 2022 17:19:24,970 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:19:24,970 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:24,970 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c137fd5)
+Date: 11 Mar 2022 17:19:24,971 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table tickets has no column named id_performance)
+Date: 11 Mar 2022 17:19:24,972 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: null.
+Date: 11 Mar 2022 17:19:24,972 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:24,972 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:19:56,331 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:19:56,337 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 11 Mar 2022 17:19:56,337 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:56,338 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:19:56,338 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:19:56,462 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:19:56,463 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:19:56,466 Level: ERROR Class: repository.RepositoryPerformance Line: 39 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns)
+Date: 11 Mar 2022 17:19:56,469 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:19:56,470 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:19:56,471 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:56,471 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:19:56,471 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:19:56,472 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:19:56,473 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c137fd5)
+Date: 11 Mar 2022 17:19:56,474 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table tickets has no column named id_performance)
+Date: 11 Mar 2022 17:19:56,474 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:19:56,475 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:56,475 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c137fd5)
+Date: 11 Mar 2022 17:19:56,476 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table tickets has no column named id_performance)
+Date: 11 Mar 2022 17:19:56,476 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: null.
+Date: 11 Mar 2022 17:19:56,476 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:19:56,476 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:21:05,884 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:21:05,891 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 11 Mar 2022 17:21:05,892 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:21:05,892 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:21:05,892 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:21:06,025 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:21:06,025 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:21:06,028 Level: ERROR Class: repository.RepositoryPerformance Line: 39 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns)
+Date: 11 Mar 2022 17:21:06,030 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:21:06,032 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:21:06,033 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:21:06,033 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:21:06,033 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:21:06,034 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:21:06,035 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c137fd5)
+Date: 11 Mar 2022 17:21:18,113 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:21:18,119 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 11 Mar 2022 17:21:18,120 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:21:18,120 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:21:18,120 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:21:18,247 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:21:18,247 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:21:18,251 Level: ERROR Class: repository.RepositoryPerformance Line: 39 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (5 values for 4 columns)
+Date: 11 Mar 2022 17:21:18,253 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:21:18,254 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:21:18,255 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:21:18,255 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:21:18,255 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:21:18,256 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:21:18,256 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c137fd5)
+Date: 11 Mar 2022 17:22:21,266 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:22:21,273 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 11 Mar 2022 17:22:21,273 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:22:21,273 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:22:21,274 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:22:21,445 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:22:21,446 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 17:22:21,458 Level: TRACE Class: repository.RepositoryPerformance Line: 37 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 17:22:21,459 Level: TRACE Class: repository.RepositoryPerformance Line: 43 Message: save - Exit
+Date: 11 Mar 2022 17:22:21,462 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:22:21,464 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:22:21,464 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:22:21,464 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:22:21,464 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:22:21,466 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:22:21,467 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5890e879)
+Date: 11 Mar 2022 17:24:14,524 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:24:14,529 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:24:14,530 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:24:14,531 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:24:14,531 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:24:14,661 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:24:14,661 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:24:14,664 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:24:14,664 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:24:14,665 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:24:14,667 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:24:14,670 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:24:14,670 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:24:14,670 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:24:14,670 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:24:14,671 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:24:14,672 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:24:14,673 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:24:18,077 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:24:18,078 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:24:18,078 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:24:18,078 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:24:21,464 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:24:21,466 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:24:21,466 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:24:21,467 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:24:21,469 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:24:21,470 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:24:21,470 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:24:21,471 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:25:04,145 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:25:04,150 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:25:04,151 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:25:04,151 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:25:04,151 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:25:04,276 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:25:04,276 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:25:04,278 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:25:04,280 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:25:04,280 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:25:04,282 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:25:04,284 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:25:04,286 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:25:04,286 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:25:04,286 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:25:04,286 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:25:04,288 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:25:04,288 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:25:07,664 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:25:07,665 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:25:07,665 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:25:07,666 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:25:10,996 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:25:10,997 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:25:10,997 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:25:10,997 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:25:10,998 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:25:10,998 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:25:10,999 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:25:10,999 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:29:02,364 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:29:02,372 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:29:02,372 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:02,372 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:29:02,373 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:29:02,511 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:29:02,512 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:29:02,515 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:29:02,516 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:02,516 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:29:02,518 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:29:02,520 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:29:02,521 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:29:02,521 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:02,521 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:29:02,521 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:29:02,522 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:29:02,523 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+Date: 11 Mar 2022 17:29:05,912 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:29:05,913 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:29:05,913 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:05,914 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+Date: 11 Mar 2022 17:29:09,341 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:29:09,342 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:29:09,342 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:09,342 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:29:09,343 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:29:09,344 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:09,345 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:29:09,346 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:29:30,825 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:29:30,831 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:29:30,831 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:30,832 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:29:30,832 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:29:30,957 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:29:30,957 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:29:30,963 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:29:30,963 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:29:30,964 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:29:30,965 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:29:31,006 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:29:39,097 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:36:51,887 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:36:51,889 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:36:51,890 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:36:51,893 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:36:51,893 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+Date: 11 Mar 2022 17:38:41,427 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:38:41,435 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:38:41,435 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:38:41,437 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:38:41,437 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:38:41,578 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:38:41,578 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:38:41,582 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:38:41,582 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:38:41,582 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:38:41,584 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:38:41,593 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:38:41,594 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:38:41,594 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:38:41,594 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:38:41,594 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:38:41,596 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:38:41,596 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:38:44,978 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:38:44,978 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:38:44,983 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:38:44,984 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:38:48,427 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:38:48,428 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:38:48,429 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:38:48,429 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:38:48,429 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:38:48,429 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:38:48,430 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:38:48,430 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:45:52,778 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:45:52,785 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:45:52,785 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:45:52,785 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:45:52,786 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:45:52,922 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:45:52,923 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:45:52,924 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:45:52,924 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:45:52,926 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:45:52,927 Level: ERROR Class: repository.RepositoryPerformance Line: 61 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 17:45:52,928 Level: TRACE Class: repository.RepositoryPerformance Line: 64 Message: find - Exit
+Date: 11 Mar 2022 17:46:38,575 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:47:00,522 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:47:00,524 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:47:00,525 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:47:00,526 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:47:01,581 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:47:01,582 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:47:01,596 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:47:01,597 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:47:01,597 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:47:01,601 Level: ERROR Class: repository.RepositoryPerformance Line: 61 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 17:47:01,602 Level: TRACE Class: repository.RepositoryPerformance Line: 64 Message: find - Exit
+Date: 11 Mar 2022 17:47:22,916 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:48:07,664 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:48:09,095 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:48:09,097 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:48:09,098 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:48:10,004 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:48:10,004 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:48:37,968 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:48:37,969 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:48:37,971 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:50:15,485 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:50:15,489 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:50:15,489 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:50:15,489 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:50:15,490 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:50:15,617 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:50:15,617 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:50:15,618 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:50:15,622 Level: ERROR Class: repository.RepositoryPerformance Line: 61 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 17:50:15,622 Level: TRACE Class: repository.RepositoryPerformance Line: 64 Message: find - Exit
+Date: 11 Mar 2022 17:51:04,065 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:51:11,746 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:51:13,201 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:51:13,202 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:51:13,203 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:51:14,296 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:51:14,297 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:51:31,489 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:52:06,204 Level: ERROR Class: repository.RepositoryPerformance Line: 61 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 17:52:37,589 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:52:46,063 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:52:47,477 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:52:47,478 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:52:47,478 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:52:48,359 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:52:48,360 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@48bb62)
+Date: 11 Mar 2022 17:52:58,780 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:53:48,180 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:53:48,185 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:53:48,186 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:53:48,186 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:53:48,186 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:53:48,320 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:53:48,320 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:53:48,322 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:53:48,325 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 17:53:48,327 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 17:53:48,328 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:53:48,328 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:53:48,328 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 17:53:48,328 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 17:53:48,329 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 17:53:48,330 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:53:51,771 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:53:51,771 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 17:53:51,776 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:53:51,776 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 17:53:55,228 Level: ERROR Class: repository.RepositoryTicket Line: 42 Message: save - org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+Date: 11 Mar 2022 17:53:55,229 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 17:53:55,229 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 17:53:55,229 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 17:53:55,229 Level: TRACE Class: repository.RepositoryPerformance Line: 137 Message: getNumberOfSoldTickets - Enter
+Date: 11 Mar 2022 17:53:55,230 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@24)
+Date: 11 Mar 2022 18:00:22,211 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:00:22,223 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 18:00:22,223 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:00:22,223 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:00:22,223 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:00:22,352 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:00:22,352 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 18:00:22,354 Level: ERROR Class: repository.RepositoryPerformance Line: 62 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 18:00:22,357 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Exit
+Date: 11 Mar 2022 18:02:58,232 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:02:58,236 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 5.
+Date: 11 Mar 2022 18:02:58,237 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:02:58,237 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:02:58,237 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:02:58,357 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:02:58,357 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5032714f)
+Date: 11 Mar 2022 18:02:58,359 Level: ERROR Class: repository.RepositoryPerformance Line: 63 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 18:02:58,361 Level: TRACE Class: repository.RepositoryPerformance Line: 66 Message: find - Exit
+Date: 11 Mar 2022 18:15:19,508 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:15:19,516 Level: TRACE Class: repository.RepositoryPerformance Line: 29 Message: save - Enter Saving performance: model.Performance@1f 
+Date: 11 Mar 2022 18:15:19,518 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:15:19,518 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:15:19,518 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:15:19,659 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:15:19,659 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:15:19,671 Level: TRACE Class: repository.RepositoryPerformance Line: 37 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:15:19,671 Level: TRACE Class: repository.RepositoryPerformance Line: 43 Message: save - Exit
+Date: 11 Mar 2022 18:15:59,653 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:15:59,660 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:15:59,660 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:15:59,661 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:15:59,661 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:15:59,802 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:15:59,803 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:15:59,804 Level: ERROR Class: repository.RepositoryPerformance Line: 62 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 18:15:59,810 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Exit
+Date: 11 Mar 2022 18:16:30,006 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:16:35,984 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:16:35,986 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:16:35,986 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:16:35,987 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:16:36,892 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:16:36,893 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 11 Mar 2022 18:16:36,903 Level: ERROR Class: repository.RepositoryPerformance Line: 62 Message: find - java.sql.SQLException: The prepared statement has been finalized
+Date: 11 Mar 2022 18:16:36,904 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Exit
+Date: 11 Mar 2022 18:16:51,192 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:16:59,493 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:17:03,189 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:17:03,190 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:17:03,190 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:17:04,092 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:17:04,093 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 11 Mar 2022 18:18:42,563 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:18:42,570 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:18:42,571 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:18:42,571 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:18:42,571 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:18:42,702 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:18:42,702 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:18:42,706 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:19:15,843 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:19:15,851 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:19:15,851 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:19:15,851 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:19:15,851 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:19:16,003 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:19:16,003 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:19:16,007 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:19:16,010 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:19:16,011 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:19:16,012 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:19:16,012 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:19:16,012 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:19:16,013 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:19:16,014 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:20:42,422 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:20:42,445 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:20:42,445 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:20:42,445 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:20:42,446 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:20:42,583 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:20:42,583 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:20:42,588 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:20:42,591 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:20:42,592 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:20:42,592 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:20:42,593 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:20:42,593 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:20:42,595 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:20:42,595 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:22:22,249 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:22:22,257 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:22:22,258 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:22:22,258 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:22:22,259 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:22:22,417 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:22:22,417 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 11 Mar 2022 18:22:22,421 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:22:22,427 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:22:22,428 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:22:22,428 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:22:22,428 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:22:22,429 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:22:22,430 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:22:22,430 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+Date: 11 Mar 2022 18:23:35,835 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:23:35,841 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:23:35,841 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:23:35,843 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:23:35,843 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:23:35,977 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:23:35,977 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:23:35,980 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:23:35,983 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:23:35,984 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:23:35,985 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:23:35,985 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:23:35,985 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:23:35,986 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:23:35,986 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:26:44,565 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:26:44,571 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:26:44,572 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:26:44,572 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:26:44,572 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:26:44,732 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:26:44,733 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:26:44,735 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:26:44,738 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:26:44,738 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:26:44,738 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:26:44,738 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:26:44,739 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:26:44,741 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:26:44,741 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:26:44,744 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:26:44,746 Level: ERROR Class: repository.RepositoryTicket Line: 50 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: no_of_sold_tickets)
+Date: 11 Mar 2022 18:26:44,747 Level: TRACE Class: repository.RepositoryTicket Line: 53 Message: save - Exit
+Date: 11 Mar 2022 18:26:44,747 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:26:44,747 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:26:44,747 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:26:44,752 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:26:44,752 Level: ERROR Class: repository.RepositoryTicket Line: 50 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: no_of_sold_tickets)
+Date: 11 Mar 2022 18:26:44,753 Level: TRACE Class: repository.RepositoryTicket Line: 53 Message: save - Exit
+Date: 11 Mar 2022 18:26:44,753 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:26:44,753 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:26:44,754 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:26:44,754 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:27:42,710 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:27:42,717 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:27:42,717 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:27:42,717 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:27:42,718 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:27:42,863 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:27:42,863 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:27:42,869 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:27:42,870 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:27:42,871 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:27:42,872 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:27:42,872 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:27:42,872 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:27:42,874 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:27:42,874 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:28:07,483 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:28:07,490 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:28:07,491 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:28:07,491 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:28:07,491 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:28:07,621 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:28:07,621 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:28:07,624 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:28:07,627 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:28:07,628 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:28:07,628 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:28:07,628 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:28:07,628 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:28:07,630 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:28:07,630 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:28:07,635 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:28:07,639 Level: TRACE Class: repository.RepositoryTicket Line: 48 Message: save - Changes 1 instances.
+Date: 11 Mar 2022 18:28:07,640 Level: TRACE Class: repository.RepositoryTicket Line: 53 Message: save - Exit
+Date: 11 Mar 2022 18:28:07,640 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:28:07,640 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:28:07,640 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:28:07,644 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:28:07,649 Level: TRACE Class: repository.RepositoryTicket Line: 48 Message: save - Changes 1 instances.
+Date: 11 Mar 2022 18:28:07,649 Level: TRACE Class: repository.RepositoryTicket Line: 53 Message: save - Exit
+Date: 11 Mar 2022 18:28:07,649 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:28:07,649 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:28:07,649 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:28:07,650 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:30:36,931 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:30:36,937 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:30:36,938 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:30:36,938 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:30:36,938 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:30:37,080 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:30:37,080 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:30:37,083 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 18:30:37,085 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 18:30:37,086 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:30:37,087 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:30:37,088 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 18:30:37,088 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 18:30:37,089 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 18:30:37,089 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:30:37,093 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:30:37,098 Level: TRACE Class: repository.RepositoryTicket Line: 49 Message: save - Changes 1 instances.
+Date: 11 Mar 2022 18:30:37,098 Level: TRACE Class: repository.RepositoryTicket Line: 54 Message: save - Exit
+Date: 11 Mar 2022 18:30:37,098 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 18:30:37,099 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:30:37,099 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 18:30:37,104 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 18:30:37,114 Level: TRACE Class: repository.RepositoryTicket Line: 49 Message: save - Changes 1 instances.
+Date: 11 Mar 2022 18:30:37,116 Level: TRACE Class: repository.RepositoryTicket Line: 54 Message: save - Exit
+Date: 11 Mar 2022 18:30:37,117 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 18:30:37,117 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 18:30:37,119 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 18:30:37,121 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 19:08:52,665 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db?allowMultiQueries=true} 
+Date: 11 Mar 2022 19:08:52,675 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 19:08:52,676 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 19:08:52,676 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 19:08:52,676 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db?allowMultiQueries=true...
+Date: 11 Mar 2022 19:08:52,700 Level: ERROR Class: util.JDBCUtils Line: 36 Message: getNewConnection - java.sql.SQLException: opening db: 'C:\Users\USer\SQLite\musicFestival.db?allowMultiQueries=true': The filename, directory name, or volume label syntax is incorrect
+Date: 11 Mar 2022 19:08:52,701 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 19:08:52,702 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit
+Date: 11 Mar 2022 19:09:59,558 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url="jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db?allowMultiQueries=true"} 
+Date: 11 Mar 2022 19:09:59,567 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 19:09:59,568 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 19:09:59,568 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 19:09:59,568 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database "jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db?allowMultiQueries=true"...
+Date: 11 Mar 2022 19:09:59,574 Level: ERROR Class: util.JDBCUtils Line: 36 Message: getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db?allowMultiQueries=true"
+Date: 11 Mar 2022 19:09:59,575 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 19:09:59,575 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit
+Date: 11 Mar 2022 19:25:48,628 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 19:25:48,641 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 19:25:48,641 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 19:25:48,641 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 19:25:48,641 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 19:25:48,868 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 19:25:48,869 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 19:25:48,873 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 11 Mar 2022 19:25:48,875 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 11 Mar 2022 19:25:48,876 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 19:25:48,876 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 19:25:48,876 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 11 Mar 2022 19:25:48,877 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 11 Mar 2022 19:25:48,878 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 11 Mar 2022 19:25:48,878 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 19:25:48,882 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 19:25:48,886 Level: TRACE Class: repository.RepositoryTicket Line: 49 Message: save - Changes 1 instances.
+Date: 11 Mar 2022 19:25:48,887 Level: TRACE Class: repository.RepositoryTicket Line: 54 Message: save - Exit
+Date: 11 Mar 2022 19:25:48,887 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 11 Mar 2022 19:25:48,887 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 19:25:48,887 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 11 Mar 2022 19:25:48,892 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 11 Mar 2022 19:25:48,896 Level: TRACE Class: repository.RepositoryTicket Line: 49 Message: save - Changes 1 instances.
+Date: 11 Mar 2022 19:25:48,896 Level: TRACE Class: repository.RepositoryTicket Line: 54 Message: save - Exit
+Date: 11 Mar 2022 19:25:48,896 Level: TRACE Class: repository.RepositoryPerformance Line: 49 Message: find - Enter Finding performance with ID: 2.
+Date: 11 Mar 2022 19:25:48,897 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 11 Mar 2022 19:25:48,897 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 11 Mar 2022 19:25:48,897 Level: TRACE Class: repository.RepositoryPerformance Line: 56 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:52:28,891 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:52:28,908 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:52:28,909 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:52:28,909 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:52:28,910 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:52:29,157 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:52:29,157 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:52:29,160 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:52:29,164 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:52:29,164 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:52:29,165 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:52:29,169 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:52:29,169 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:52:29,169 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:52:29,170 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:52:29,171 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:52:29,171 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:52:29,172 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:52:29,172 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:53:39,317 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:53:39,331 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:53:39,331 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:39,332 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:53:39,332 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:53:39,555 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:53:39,555 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:39,562 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:53:39,562 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:39,562 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:39,563 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:53:39,567 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:53:39,568 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:53:39,568 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:39,569 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:39,570 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:53:39,570 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:39,570 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:39,571 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:53:55,067 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:53:55,085 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:53:55,085 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:55,087 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:53:55,087 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:53:55,343 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:53:55,344 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:55,345 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:53:55,348 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:55,348 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:55,349 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:53:55,351 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:53:55,352 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:53:55,352 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:55,352 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:55,353 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:53:55,353 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:53:55,354 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:53:55,354 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:54:32,641 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:54:32,655 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:54:32,655 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:54:32,656 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:54:32,656 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:54:32,869 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:54:32,869 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:54:32,870 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:54:32,874 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:54:32,874 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:54:32,874 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:54:32,876 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:54:32,877 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 14 Mar 2022 11:54:32,878 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:54:32,878 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:54:32,878 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:54:32,880 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:54:32,881 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 14 Mar 2022 11:54:32,886 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 14 Mar 2022 11:54:32,889 Level: ERROR Class: repository.RepositoryTicket Line: 51 Message: save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: no_of_sold_seats)
+Date: 14 Mar 2022 11:54:32,890 Level: TRACE Class: repository.RepositoryTicket Line: 54 Message: save - Exit
+Date: 14 Mar 2022 11:54:32,890 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:54:32,890 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:54:32,890 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:54:32,891 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:54:32,891 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:54:32,891 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:54:32,892 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:55:18,740 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:55:18,759 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:55:18,761 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:55:18,761 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:55:18,761 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:55:19,000 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:55:19,000 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:55:19,002 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:55:19,002 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:55:19,006 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:55:19,006 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:55:19,010 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:55:19,011 Level: TRACE Class: repository.RepositoryTicket Line: 33 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 14 Mar 2022 11:55:19,011 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:55:19,011 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:55:19,012 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:55:19,013 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:55:19,014 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 14 Mar 2022 11:55:19,018 Level: TRACE Class: repository.RepositoryTicket Line: 40 Message: save - Saved 1 instances.
+Date: 14 Mar 2022 11:55:19,019 Level: TRACE Class: repository.RepositoryTicket Line: 45 Message: save - Exit
+Date: 14 Mar 2022 11:55:19,019 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:55:19,019 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:55:19,020 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:55:19,021 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:55:19,021 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:55:19,022 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:55:19,022 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:56:01,099 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:56:01,117 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:56:01,117 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:56:01,118 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:56:01,119 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:56:01,381 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:56:01,382 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:56:01,384 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:56:01,389 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:56:01,389 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:56:01,390 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:56:01,394 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:56:01,396 Level: TRACE Class: repository.RepositoryTicket Line: 75 Message: delete - Enter Deleting ticket: model.Ticket@2c 
+Date: 14 Mar 2022 11:56:01,397 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:56:01,397 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:56:01,398 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:56:01,399 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:56:01,401 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 14 Mar 2022 11:56:49,113 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:56:49,136 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:56:49,137 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:56:49,138 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:56:49,139 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:56:49,524 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:56:49,524 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 14 Mar 2022 11:56:49,532 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:56:49,532 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:56:49,533 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 14 Mar 2022 11:56:49,534 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:56:49,538 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:57:11,230 Level: TRACE Class: repository.RepositoryTicket Line: 75 Message: delete - Enter Deleting ticket: model.Ticket@2c 
+Date: 14 Mar 2022 11:57:16,520 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:57:16,520 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:57:16,526 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:57:16,533 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:57:16,536 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+Date: 14 Mar 2022 11:58:00,660 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:58:00,685 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:58:00,685 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:00,687 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:58:00,688 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:58:01,097 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:58:01,097 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 14 Mar 2022 11:58:01,105 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:58:01,106 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:01,107 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4681c175)
+Date: 14 Mar 2022 11:58:01,108 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:58:01,112 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:58:09,640 Level: TRACE Class: repository.RepositoryTicket Line: 75 Message: delete - Enter Deleting ticket: model.Ticket@2c 
+Date: 14 Mar 2022 11:58:10,223 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:10,224 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:58:10,226 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:58:10,232 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:58:10,233 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+Date: 14 Mar 2022 11:58:47,986 Level: INFO  Class: repository.RepositoryPerformance Line: 23 Message: <init> - Initializing RepositoryPerformance with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:58:47,997 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:58:47,999 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:47,999 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:58:48,000 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:58:48,272 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:58:48,272 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:58:48,279 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:58:48,280 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:48,280 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:58:48,281 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)
+Date: 14 Mar 2022 11:58:48,285 Level: INFO  Class: repository.RepositoryTicket Line: 27 Message: <init> - Initializing RepositoryTicket with properties: {jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 14 Mar 2022 11:58:48,286 Level: TRACE Class: repository.RepositoryTicket Line: 75 Message: delete - Enter Deleting ticket: model.Ticket@2c 
+Date: 14 Mar 2022 11:58:48,287 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:48,287 Level: TRACE Class: util.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 14 Mar 2022 11:58:48,287 Level: INFO  Class: util.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 14 Mar 2022 11:58:48,289 Level: TRACE Class: util.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 14 Mar 2022 11:58:48,289 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6e9a5ed8)
+Date: 14 Mar 2022 11:58:48,295 Level: TRACE Class: repository.RepositoryTicket Line: 80 Message: delete - Deleted 1 instances.
+Date: 14 Mar 2022 11:58:48,295 Level: TRACE Class: repository.RepositoryTicket Line: 86 Message: delete - Exit
+Date: 14 Mar 2022 11:58:48,296 Level: TRACE Class: repository.RepositoryPerformance Line: 65 Message: find - Enter Finding performance with ID: 2.
+Date: 14 Mar 2022 11:58:48,296 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:48,296 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:58:48,297 Level: TRACE Class: repository.RepositoryPerformance Line: 48 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 2.
+Date: 14 Mar 2022 11:58:48,297 Level: TRACE Class: util.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 14 Mar 2022 11:58:48,298 Level: TRACE Class: util.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353352b6)
+Date: 14 Mar 2022 11:58:48,299 Level: TRACE Class: repository.RepositoryPerformance Line: 72 Message: find - Exit with(model.Performance@21)

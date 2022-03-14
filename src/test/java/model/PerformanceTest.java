@@ -3,8 +3,6 @@ package model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -43,24 +41,24 @@ class PerformanceTest {
 
     @Test
     void getNoOfAvailableTickets() {
-        assertEquals(performance.getNoOfAvailableTickets(), 206);
+        assertEquals(performance.getNoOfAvailableSeats(), 206);
     }
 
     @Test
     void setNoOfAvailableTickets() {
-        performance.setNoOfAvailableTickets(205);
-        assertEquals(performance.getNoOfAvailableTickets(), 205);
+        performance.setNoOfAvailableSeats(205);
+        assertEquals(performance.getNoOfAvailableSeats(), 205);
     }
 
     @Test
     void getNoOfSoldTickets() {
-        assertEquals(performance.getNoOfSoldTickets(), 1678);
+        assertEquals(performance.getNoOfSoldSeats(), 1678);
     }
 
     @Test
     void setNoOfSoldTickets() {
-        performance.setNoOfSoldTickets(1679);
-        assertEquals(performance.getNoOfSoldTickets(), 1679);
+        performance.setNoOfSoldSeats(1679);
+        assertEquals(performance.getNoOfSoldSeats(), 1679);
     }
 
     @Test

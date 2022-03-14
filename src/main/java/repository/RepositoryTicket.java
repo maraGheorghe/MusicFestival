@@ -32,7 +32,7 @@ public class RepositoryTicket implements RepositoryInterfaceTicket {
     public Optional<Ticket> save(Ticket ticket) {
         logger.traceEntry("Saving ticket: {} ", ticket);
         Connection connection = jdbcUtils.getConnection();
-        try(PreparedStatement preparedStatement = connection.prepareStatement("insert into tickets (id_performance, owner, seats) values (?, ?, ?)")) {
+        try(PreparedStatement preparedStatement = connection.prepareStatement("insert into tickets (performance_id, owner, seats) values (?, ?, ?) ;")) {
             preparedStatement.setLong(1, ticket.getPerformance().getID());
             preparedStatement.setString(2, ticket.getOwnerName());
             preparedStatement.setInt(3, ticket.getNoOfSeats());
@@ -41,7 +41,6 @@ public class RepositoryTicket implements RepositoryInterfaceTicket {
         } catch (SQLException e) {
             logger.error(e);
             System.err.println("DB error: " + e);
-            return Optional.empty();
         }
         logger.traceExit();
         return Optional.of(ticket);
@@ -75,7 +74,7 @@ public class RepositoryTicket implements RepositoryInterfaceTicket {
     public Optional<Ticket> delete(Ticket ticket) {
         logger.traceEntry("Deleting ticket: {} ", ticket);
         Connection connection = jdbcUtils.getConnection();
-        try(PreparedStatement preparedStatement = connection.prepareStatement("delete from tickets where ticket_id = ?")) {
+        try(PreparedStatement preparedStatement = connection.prepareStatement("delete from tickets where ticket_id = ?; ")) {
             preparedStatement.setLong(1, ticket.getID());
             int result = preparedStatement.executeUpdate();
             logger.trace("Deleted {} instances.", result);
@@ -136,15 +135,15 @@ public class RepositoryTicket implements RepositoryInterfaceTicket {
     public Performance getPerformanceOfTicket(Long ticketID) {
         logger.traceEntry("Finding performance for the ticket with ID: {}.", ticketID);
         Connection connection = jdbcUtils.getConnection();
-        try(PreparedStatement preparedStatement = connection.prepareStatement("select p.performance_id, p.performance_date, p.place, p.available_tickets, p.sold_tickets, p.artist from performances p inner join tickets t on p.performance_id = t.performance_id where ticket_id = ?")) {
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select p.performance_id, p.performance_date, p.place, p.no_of_seats, p.no_of_sold_seats, p.artist from performances p inner join tickets t on p.performance_id = t.performance_id where ticket_id = ?")) {
             preparedStatement.setLong(1, ticketID);
             try(ResultSet resultSet = preparedStatement.executeQuery()) {
                 if(resultSet.next()) {
                     Long performanceID = resultSet.getLong("performance_id");
                     LocalDate date = resultSet.getDate("performance_date").toLocalDate();
                     String place = resultSet.getString("place");
-                    int available = resultSet.getInt("available_tickets");
-                    int sold = resultSet.getInt("sold_tickets");
+                    int sold = resultSet.getInt("no_of_sold_seats");
+                    int available = resultSet.getInt("no_of_seats") - sold;
                     String artist = resultSet.getString("artist");
                     Performance performance = new Performance(performanceID, date, place, available, sold, artist);
                     logger.traceExit(performance);

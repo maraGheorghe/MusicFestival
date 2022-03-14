@@ -28,10 +28,10 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
     public Optional<Performance> save(Performance performance) {
         logger.traceEntry("Saving performance: {} ", performance);
         Connection connection = jdbcUtils.getConnection();
-        try(PreparedStatement preparedStatement = connection.prepareStatement("insert into performances (performance_date, place, no_of_tickets, artist) values (?, ?, ?, ?, ?)")) {
+        try(PreparedStatement preparedStatement = connection.prepareStatement("insert into performances (performance_date, place, no_of_seats, artist) values (?, ?, ?, ?)")) {
             preparedStatement.setDate(1, Date.valueOf(performance.getDate()));
             preparedStatement.setString(2, performance.getPlace());
-            preparedStatement.setInt(3, performance.getNoOfAvailableTickets() + performance.getNoOfSoldTickets());
+            preparedStatement.setInt(3, performance.getNoOfAvailableSeats() + performance.getNoOfSoldSeats());
             preparedStatement.setString(4, performance.getArtist());
             int result = preparedStatement.executeUpdate();
             logger.trace("Saved {} instances.", result);
@@ -42,6 +42,22 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
         }
         logger.traceExit();
         return Optional.of(performance);
+    }
+
+    private int getNumberOfSoldTickets(Long performanceID) {
+        logger.traceEntry("Counting the number of sold tickets for the performance witd ID: {}.", performanceID);
+        Connection connection = jdbcUtils.getConnection();
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select sum(seats) as count from tickets where performance_id = ?")) {
+            preparedStatement.setLong(1, performanceID);
+            try(ResultSet resultSet = preparedStatement.executeQuery()) {
+                if(resultSet.next())
+                    return resultSet.getInt(1);
+            }
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.println("DB error: " + e);
+        }
+        return 0;
     }
 
     @Override
@@ -86,10 +102,10 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
     public Optional<Performance> update(Performance performance) {
         logger.traceEntry("Updating performance: {} ", performance);
         Connection connection = jdbcUtils.getConnection();
-        try(PreparedStatement preparedStatement = connection.prepareStatement("update performances set performance_date = ?, place = ?, no_of_tickets = ?, artist = ? where performance_id = ?")) {
+        try(PreparedStatement preparedStatement = connection.prepareStatement("update performances set performance_date = ?, place = ?, no_of_seats = ?, artist = ? where performance_id = ?")) {
             preparedStatement.setDate(1, Date.valueOf(performance.getDate()));
             preparedStatement.setString(2, performance.getPlace());
-            preparedStatement.setInt(3, performance.getNoOfAvailableTickets() + performance.getNoOfSoldTickets());
+            preparedStatement.setInt(3, performance.getNoOfAvailableSeats() + performance.getNoOfSoldSeats());
             preparedStatement.setString(4, performance.getArtist());
             preparedStatement.setLong(5, performance.getID());
             int result = preparedStatement.executeUpdate();
@@ -128,18 +144,9 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
         LocalDate date = resultSet.getDate("performance_date").toLocalDate();
         String place = resultSet.getString("place");
         int sold = getNumberOfSoldTickets(performance_id);
-        int available = resultSet.getInt("no_of_tickets") - sold;
+        int available = resultSet.getInt("no_of_seats") - sold;
         String artist = resultSet.getString("artist");
         return new Performance(performance_id, date, place, available, sold, artist);
-    }
-
-    private int getNumberOfSoldTickets(Long ID) throws SQLException {
-        logger.traceEntry();
-        Connection connection = jdbcUtils.getConnection();
-        PreparedStatement preparedStatement = connection.prepareStatement("select count(*) from tickets where performance_id = ?");
-        preparedStatement.setLong(1, ID);
-        ResultSet resultSet = preparedStatement.executeQuery();
-        return resultSet.getInt(1);
     }
 
     @Override
