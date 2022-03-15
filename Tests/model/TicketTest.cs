@@ -12,7 +12,7 @@ public class TicketTest
     public void Setup()
     {
         _ticket = new Ticket(
-            1, new Performance(1, new DateOnly(2022, 8, 26), "CJ", 100, 200, new Artist("artist")), "owner", 3
+            1, new Performance(1, new DateTime(2022, 8, 26), "CJ", 100, 200, "artist"), "owner", 3
         );
     }
 

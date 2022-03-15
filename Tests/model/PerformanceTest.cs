@@ -13,25 +13,24 @@ public class PerformanceTest
     [SetUp]
     public void Setup()
     {
-        Artist artist = new Artist("21P");
-        DateOnly date = new DateOnly(2022, 8, 26);
-        _performance = new Performance(1, new DateOnly(2022, 8, 26), "CJ", 100, 200, artist);
-        _performance0 = new Performance(date, "CJ", 100, 200, artist);
+        DateTime date = new DateTime(2022, 8, 26);
+        _performance = new Performance(1, new DateTime(2022, 8, 26), "CJ", 100, 200, "21P");
+        _performance0 = new Performance(date, "CJ", 100, 200, "21P");
     }
 
     [Test]
     public void GetDate()
     {
-        Assert.AreEqual(_performance.Date, new DateOnly(2022, 8, 26));
-        Assert.AreEqual(_performance0.Date, new DateOnly(2022, 8, 26));
+        Assert.AreEqual(_performance.Date, new DateTime(2022, 8, 26));
+        Assert.AreEqual(_performance0.Date, new DateTime(2022, 8, 26));
     }
     
     [Test]
     public void SetDate()
     {
-        _performance.Date = new DateOnly(2022, 3, 22);
-        Assert.AreEqual(_performance.Date, new DateOnly(2022, 3, 22));
-        Assert.AreEqual(_performance0.Date, new DateOnly(2022, 8, 26));
+        _performance.Date = new DateTime(2022, 3, 22);
+        Assert.AreEqual(_performance.Date, new DateTime(2022, 3, 22));
+        Assert.AreEqual(_performance0.Date, new DateTime(2022, 8, 26));
     }
     
     [Test]
@@ -50,41 +49,39 @@ public class PerformanceTest
     [Test]
     public void GetAvailable()
     {
-        Assert.AreEqual(_performance.NoOfAvailableTickets, 100);
+        Assert.AreEqual(_performance.NoOfAvailableSeats, 100);
     }
     
     [Test]
     public void SetAvailable()
     {
-        _performance.NoOfAvailableTickets = 105;
-        Assert.AreEqual(_performance.NoOfAvailableTickets, 105);
+        _performance.NoOfAvailableSeats = 105;
+        Assert.AreEqual(_performance.NoOfAvailableSeats, 105);
     }
     
     [Test]
     public void GetSold()
     {
-        Assert.AreEqual(_performance.NoOfSoldTickets, 200);
+        Assert.AreEqual(_performance.NoOfSoldSeats, 200);
     }
     
     [Test]
     public void SetSold()
     {
-        _performance.NoOfSoldTickets = 195;
-        Assert.AreEqual(_performance.NoOfSoldTickets, 195);
+        _performance.NoOfSoldSeats = 195;
+        Assert.AreEqual(_performance.NoOfSoldSeats, 195);
     }
     
     [Test]
     public void GetArtists()
     {
-        Artist artist = new Artist("21P");
-        Assert.AreEqual(_performance.Artist, artist);
+        Assert.AreEqual(_performance.Artist, "21P");
     }
     
     [Test]
     public void SetArtists()
     {
-        Artist artist = new Artist("Kygo");
-        _performance.Artist = artist;
-        Assert.AreEqual(_performance.Artist, artist);
+        _performance.Artist = "Kygo";
+        Assert.AreEqual(_performance.Artist, "Kygo");
     }
 }

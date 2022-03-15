@@ -1,28 +1,30 @@
-﻿namespace MusicFestivalMPP.model;
+﻿using System;
+
+namespace MusicFestivalMPP.model;
 
 public class Performance: Entity
 {
-    public DateOnly Date { get; set; }
+    public DateTime Date { get; set; }
     public String Place { get; set; }
-    public int NoOfAvailableTickets { get; set; }
-    public int NoOfSoldTickets { get; set; }
-    public Artist Artist { get; set; }
+    public int NoOfAvailableSeats { get; set; }
+    public int NoOfSoldSeats { get; set; }
+    public String Artist { get; set; }
 
-    public Performance(long id, DateOnly date, string place, int noOfAvailableTickets, int noOfSoldTickets, Artist artist) : base(id)
+    public Performance(long id, DateTime date, string place, int noOfAvailableSeats, int noOfSoldSeats, String artist) : base(id)
     {
         Date = date;
         Place = place;
-        NoOfAvailableTickets = noOfAvailableTickets;
-        NoOfSoldTickets = noOfSoldTickets;
+        NoOfAvailableSeats = noOfAvailableSeats;
+        NoOfSoldSeats = noOfSoldSeats;
         Artist = artist;
     }
 
-    public Performance(DateOnly date, string place, int noOfAvailableTickets, int noOfSoldTickets, Artist artist)
+    public Performance(DateTime date, string place, int noOfAvailableSeats, int noOfSoldSeats, String artist)
     {
         Date = date;
         Place = place;
-        NoOfAvailableTickets = noOfAvailableTickets;
-        NoOfSoldTickets = noOfSoldTickets;
+        NoOfAvailableSeats = noOfAvailableSeats;
+        NoOfSoldSeats = noOfSoldSeats;
         Artist = artist;
     }
 }

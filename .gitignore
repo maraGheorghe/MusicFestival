@@ -10,3 +10,6 @@ Tests/obj
 *.csproj
 MusicFestivalMPP/bin
 MusicFestivalMPP/obj
+ConnectionUtils/bin
+ConnectionUtils/obj
+packages

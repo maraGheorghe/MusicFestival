@@ -1,10 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\USer\AppData\Local\JetBrains\Rider2021.3\resharper-host\temp\Rider\vAny\CoverageData\_MusicFestivalMPP.46393259\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=029850f8_002Dc9ea_002D45a8_002D8da9_002D7223b6b7e747/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EntityTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b67fd715_002Dea66_002D4ce3_002D9392_002D852f4fe73f9f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TicketTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\USer\Desktop\Semestrul 4\MPP\Laboratoare\MPP\random\MusicFestivalMPP\Tests" Presentation="&amp;lt;Tests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e71c3a25_002D5ea1_002D4d0a_002Daa48_002De1a03db2837b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PerformanceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.EntityTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.UserTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.ArtistTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::3FE80624-0B48-4D06-B323-1485A8EADC73::net6.0::Tests.model.PerformanceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::598E4CD0-48BE-42E8-B264-3AB26D19E50C::.NETFramework,Version=v4.8::Tests.model.PerformanceTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,4 +1,6 @@
-﻿namespace MusicFestivalMPP.model;
+﻿using System;
+
+namespace MusicFestivalMPP.model;
 
 public class Ticket: Entity
 {

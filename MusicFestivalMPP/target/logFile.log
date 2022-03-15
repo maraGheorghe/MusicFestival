@@ -1,0 +1,65 @@
+2022-03-15 00:23:48,360 [1] INFO  RepositoryUser - Creating RepositoryUser.
+2022-03-15 00:23:48,502 [1] INFO  RepositoryUser - Finding user with ID: 1.
+2022-03-15 00:23:48,639 [1] INFO  RepositoryUser - Found user: MusicFestivalMPP.model.User.
+2022-03-15 00:23:48,640 [1] INFO  RepositoryPerformance - Creating RepositoryPerformance.
+2022-03-15 00:23:48,641 [1] INFO  RepositoryUser - Creating RepositoryTicket.
+2022-03-15 00:23:48,642 [1] INFO  RepositoryPerformance - Finding performace with ID: 14.
+2022-03-15 00:23:48,647 [1] INFO  RepositoryPerformance - Sold tickets.
+2022-03-15 00:23:48,650 [1] INFO  RepositoryPerformance - 2
+2022-03-15 00:23:48,651 [1] INFO  RepositoryPerformance - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 00:23:48,653 [1] INFO  RepositoryUser - Finding performance for the ticket with ID: 15.
+2022-03-15 00:23:48,654 [1] INFO  RepositoryUser - Sold tickets.
+2022-03-15 00:23:48,654 [1] INFO  RepositoryUser - 0
+2022-03-15 00:23:48,656 [1] INFO  RepositoryUser - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 11:01:45,305 [1] INFO  RepositoryUser - Creating RepositoryUser.
+2022-03-15 11:01:45,716 [1] INFO  RepositoryUser - Finding user with ID: 1.
+2022-03-15 11:01:46,149 [1] INFO  RepositoryUser - Found user: MusicFestivalMPP.model.User.
+2022-03-15 11:01:46,154 [1] INFO  RepositoryPerformance - Creating RepositoryPerformance.
+2022-03-15 11:01:46,155 [1] INFO  RepositoryUser - Creating RepositoryTicket.
+2022-03-15 11:01:46,157 [1] INFO  RepositoryPerformance - Finding performace with ID: 14.
+2022-03-15 11:01:46,164 [1] INFO  RepositoryPerformance - Sold tickets.
+2022-03-15 11:01:46,168 [1] INFO  RepositoryPerformance - 2
+2022-03-15 11:01:46,169 [1] INFO  RepositoryPerformance - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 11:01:46,171 [1] INFO  RepositoryUser - Finding performance for the ticket with ID: 15.
+2022-03-15 11:01:46,173 [1] INFO  RepositoryUser - Sold tickets.
+2022-03-15 11:01:46,174 [1] INFO  RepositoryUser - 0
+2022-03-15 11:01:46,174 [1] INFO  RepositoryUser - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 11:06:36,657 [1] INFO  RepositoryUser - Creating RepositoryUser.
+2022-03-15 11:06:36,712 [1] INFO  RepositoryUser - Finding user with ID: 1.
+2022-03-15 11:06:36,906 [1] INFO  RepositoryUser - Found user: MusicFestivalMPP.model.User.
+2022-03-15 11:06:36,909 [1] INFO  RepositoryPerformance - Creating RepositoryPerformance.
+2022-03-15 11:06:36,912 [1] INFO  RepositoryUser - Creating RepositoryTicket.
+2022-03-15 11:06:36,913 [1] INFO  RepositoryPerformance - Finding performace with ID: 14.
+2022-03-15 11:06:36,915 [1] INFO  RepositoryPerformance - Sold tickets.
+2022-03-15 11:06:36,921 [1] INFO  RepositoryPerformance - 2
+2022-03-15 11:06:36,922 [1] INFO  RepositoryPerformance - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 11:06:36,929 [1] INFO  RepositoryUser - Finding performance for the ticket with ID: 15.
+2022-03-15 11:06:36,931 [1] INFO  RepositoryUser - Sold tickets.
+2022-03-15 11:06:36,931 [1] INFO  RepositoryUser - 0
+2022-03-15 11:06:36,931 [1] INFO  RepositoryUser - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 13:09:24,875 [1] INFO  RepositoryUser - Creating RepositoryUser.
+2022-03-15 13:09:24,911 [1] INFO  RepositoryUser - Finding user with ID: 1.
+2022-03-15 13:09:25,078 [1] INFO  RepositoryUser - Found user: MusicFestivalMPP.model.User.
+2022-03-15 13:09:25,097 [1] INFO  RepositoryPerformance - Creating RepositoryPerformance.
+2022-03-15 13:09:25,098 [1] INFO  RepositoryUser - Creating RepositoryTicket.
+2022-03-15 13:09:25,099 [1] INFO  RepositoryPerformance - Finding performace with ID: 14.
+2022-03-15 13:09:25,101 [1] INFO  RepositoryPerformance - Sold tickets.
+2022-03-15 13:09:25,106 [1] INFO  RepositoryPerformance - 2
+2022-03-15 13:09:25,108 [1] INFO  RepositoryPerformance - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 13:09:25,110 [1] INFO  RepositoryUser - Finding performance for the ticket with ID: 15.
+2022-03-15 13:09:25,112 [1] INFO  RepositoryUser - Sold tickets.
+2022-03-15 13:09:25,112 [1] INFO  RepositoryUser - 0
+2022-03-15 13:09:25,112 [1] INFO  RepositoryUser - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 17:30:46,183 [1] INFO  RepositoryUser - Creating RepositoryUser.
+2022-03-15 17:30:46,211 [1] INFO  RepositoryUser - Finding user with ID: 1.
+2022-03-15 17:30:46,328 [1] INFO  RepositoryUser - Found user: MusicFestivalMPP.model.User.
+2022-03-15 17:30:46,330 [1] INFO  RepositoryPerformance - Creating RepositoryPerformance.
+2022-03-15 17:30:46,330 [1] INFO  RepositoryUser - Creating RepositoryTicket.
+2022-03-15 17:30:46,330 [1] INFO  RepositoryPerformance - Finding performance with ID: 14.
+2022-03-15 17:30:46,332 [1] INFO  RepositoryPerformance - Sold tickets.
+2022-03-15 17:30:46,334 [1] INFO  RepositoryPerformance - 2
+2022-03-15 17:30:46,335 [1] INFO  RepositoryPerformance - Found performance: MusicFestivalMPP.model.Performance.
+2022-03-15 17:30:46,336 [1] INFO  RepositoryUser - Finding performance for the ticket with ID: 15.
+2022-03-15 17:30:46,336 [1] INFO  RepositoryUser - Sold tickets.
+2022-03-15 17:30:46,336 [1] INFO  RepositoryUser - 0
+2022-03-15 17:30:46,337 [1] INFO  RepositoryUser - Found performance: MusicFestivalMPP.model.Performance.
