@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
+import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -39,8 +40,23 @@ public class MainController {
     public void setSuperService(SuperService superService) {
         this.superService = superService;
         initModelAllShows();
-        allShowsList.setItems(allModel);
+        setShowAllList();
         dateShowsList.setItems(dateModel);
+    }
+
+    private void setShowAllList() {
+        allShowsList.setItems(allModel);
+        allShowsList.setCellFactory(param -> new ListCell<Performance>() {
+            @Override
+            protected void updateItem(Performance item, boolean empty) {
+                super.updateItem(item, empty);
+                if(item != null) {
+                    setText(item.toString());
+                    if ( item.getNoOfAvailableSeats() == 0)
+                        setStyle("-fx-background-color: red;");
+                }
+            }
+        });
     }
 
     public void handleBuyTicket(MouseEvent mouseEvent) throws IOException {
