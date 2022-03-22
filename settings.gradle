@@ -1,2 +1,4 @@
-rootProject.name = 'MusicFestivalMPP'
+rootProject.name = 'MusicFestivalMPP-J'
+include 'code'
+include 'gui'
 
