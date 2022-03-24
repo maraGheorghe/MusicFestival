@@ -27,4 +27,13 @@ public class Performance: Entity
         NoOfSoldSeats = noOfSoldSeats;
         Artist = artist;
     }
+
+    public override string ToString()
+    {
+        return  Artist +
+                " live at " + Date.ToString("dd/MM/yyyy HH:mm") +
+                " in " + Place +
+                ", available seats: " + NoOfAvailableSeats +
+                " sold seats: " + NoOfSoldSeats;
+    }
 }

@@ -64,6 +64,15 @@
         <Compile Include="repository\RepositoryPerformance.cs" />
         <Compile Include="repository\RepositoryTicket.cs" />
         <Compile Include="repository\RepositoryUser.cs" />
+        <Compile Include="service\ServicePerformance.cs" />
+        <Compile Include="service\ServiceTicket.cs" />
+        <Compile Include="service\ServiceUser.cs" />
+        <Compile Include="service\SuperService.cs" />
+        <Compile Include="validator\PerformanceValidator.cs" />
+        <Compile Include="validator\TicketValidator.cs" />
+        <Compile Include="validator\UserValidator.cs" />
+        <Compile Include="validator\ValidationException.cs" />
+        <Compile Include="validator\Validator.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="app.config" />

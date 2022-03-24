@@ -21,12 +21,18 @@ namespace MusicFestivalMPP
             RepositoryUser repositoryUser = new RepositoryUser(properties);
             Console.WriteLine(repositoryUser.Find(1).Username);
             RepositoryPerformance repositoryPerformance = new RepositoryPerformance(properties);
-          //  repositoryPerformance.Save(new Performance(new DateTime(2022, 6, 22), "Bontida", 2000, 0, "EC"));
+            // repositoryPerformance.Save(new Performance(new DateTime(2022, 6, 22, 19, 0, 0), "Bontida", 2000, 0, "EC"));
             RepositoryTicket repositoryTicket = new RepositoryTicket(properties);
-           // repositoryTicket.Save(new Ticket(new Performance(12, new DateTime(2022, 6, 22), "Bontida", 2000, 0, "EC"), "Mara", 2));
-              Performance performance = repositoryPerformance.Find(14);
-              Console.WriteLine(performance.NoOfAvailableSeats);
-              Console.WriteLine(repositoryTicket.GetPerformanceOfTicket(15).Artist);
+           //repositoryTicket.Save(new Ticket(new Performance(30, new DateTime(2022, 6, 22, 19, 0, 0), "Bontida", 2000, 0, "EC"), "Mara", 2));
+            Performance performance = repositoryPerformance.Find(30);
+            performance = repositoryTicket.GetPerformanceOfTicket(36);
+            Console.WriteLine(performance);
+            IList<Performance> performances =
+                repositoryPerformance.FindAllPerformancesForADay(new DateTime(2022, 6, 22));
+            foreach (var performance1 in performances)
+            {
+                Console.WriteLine(performance1);
+            }
         }
     }
 }

@@ -33,7 +33,7 @@ public class RepositoryPerformance: IRepositoryPerformance
                     "insert into performances (performance_date, place, no_of_seats, artist) values (@date, @place, @tickets, @artist)";
                 IDbDataParameter parameterDate = command.CreateParameter();
                 parameterDate.ParameterName = "@date";
-                parameterDate.Value = entity.Date.ToString("yyyy-MM-dd");
+                parameterDate.Value = entity.Date.ToString("yyyy-MM-dd HH:mm");
                 command.Parameters.Add(parameterDate);
                 IDbDataParameter parameterPlace = command.CreateParameter();
                 parameterPlace.ParameterName = "@place";
@@ -135,7 +135,7 @@ public class RepositoryPerformance: IRepositoryPerformance
                     "update performances set performance_date = @date, place = @place, no_of_seats = @tickets, artist = @artist where performance_id = @id";
                 IDbDataParameter parameterDate = command.CreateParameter();
                 parameterDate.ParameterName = "@date";
-                parameterDate.Value = entity.Date.ToString("yyyy-MM-dd");
+                parameterDate.Value = entity.Date.ToString("yyyy-MM-dd HH:mm");
                 command.Parameters.Add(parameterDate);
                 IDbDataParameter parameterPlace = command.CreateParameter();
                 parameterPlace.ParameterName = "@place";
@@ -229,17 +229,17 @@ public class RepositoryPerformance: IRepositoryPerformance
 
     public IList<Performance> FindAllPerformancesForADay(DateTime date)
     {
-        Log.InfoFormat("Finding all performances for the day: {0}.", date);
+        Log.InfoFormat("Finding all performances for the day: {0}.", date.ToString("yyyy-MM-dd"));
         IDbConnection connection = DbUtils.GetConnection(properties);
         IList<Performance> performances = new List<Performance>();
         try
         {
             using (IDbCommand command = connection.CreateCommand())
             {
-                command.CommandText = "select * from performances where performance_date = @date";
+                command.CommandText = "select * from performances where performance_date like @date";
                 IDbDataParameter parameterDate = command.CreateParameter();
                 parameterDate.ParameterName = "@date";
-                parameterDate.Value = date;
+                parameterDate.Value = date.ToString("yyyy-MM-dd") + '%';
                 command.Parameters.Add(parameterDate); 
                 using (var result = command.ExecuteReader())
                 {

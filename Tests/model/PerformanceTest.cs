@@ -13,7 +13,7 @@ public class PerformanceTest
     [SetUp]
     public void Setup()
     {
-        DateTime date = new DateTime(2022, 8, 26);
+        DateTime date = new DateTime(2022, 8, 26, 18, 0, 0);
         _performance = new Performance(1, new DateTime(2022, 8, 26), "CJ", 100, 200, "21P");
         _performance0 = new Performance(date, "CJ", 100, 200, "21P");
     }
@@ -22,15 +22,15 @@ public class PerformanceTest
     public void GetDate()
     {
         Assert.AreEqual(_performance.Date, new DateTime(2022, 8, 26));
-        Assert.AreEqual(_performance0.Date, new DateTime(2022, 8, 26));
+        Assert.AreEqual(_performance0.Date, new DateTime(2022, 8, 26, 18, 0, 0));
     }
     
     [Test]
     public void SetDate()
     {
-        _performance.Date = new DateTime(2022, 3, 22);
-        Assert.AreEqual(_performance.Date, new DateTime(2022, 3, 22));
-        Assert.AreEqual(_performance0.Date, new DateTime(2022, 8, 26));
+        _performance.Date = new DateTime(2022, 3, 22, 19, 30, 0);
+        Assert.AreEqual(_performance.Date, new DateTime(2022, 3, 22, 19, 30, 0));
+        Assert.AreEqual(_performance0.Date, new DateTime(2022, 8, 26, 18, 0, 0));
     }
     
     [Test]
