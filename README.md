@@ -18,7 +18,9 @@ afișat cu culoare roșie.
 ### Structura repository-ului: :computer:
 In acest repository exista trei branch-uri: 
 1. main
-2. ***lab01-java***, pentru implementarea primei teme de casa, in limbajul Java;
-3. ***lab01-c#***, pentru implementarea primei teme de casa,  in limbajul C#.
-*Cele doua implementari contin modelul, interfetele pentru repository si teste.*
-
+2. ***lab01-java***, pentru implementarea temei de casa, in limbajul Java;
+3. ***lab01-c#***, pentru implementarea temei de casa,  in limbajul C#. <br>
+*Lab01: Cele doua implementari contin modelul, interfetele pentru repository si teste.* <br>
+*Lab02: Au fost impementate clasele repository, s-a stabilit conexiunea la baza de date si am folosit log4net.* <br>
+*Lab03: Au fost implementate service-urile si validatorii, alaturi de intergfata grafica pentru limbajul Java.* <br>
+*Lab04: Au fost implementate service-urile si validatorii, alaturi de intergfata grafica pentru limbajul C#.* <br>
