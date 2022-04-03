@@ -25,3 +25,4 @@ In acest repository exista trei branch-uri:
 *Lab02: Au fost impementate clasele repository, s-a stabilit conexiunea la baza de date si am folosit log4net.* <br>
 *Lab03: Au fost implementate service-urile si validatorii, alaturi de intergfata grafica pentru limbajul Java.* <br>
 *Lab04: Au fost implementate service-urile si validatorii, alaturi de intergfata grafica pentru limbajul C#.* <br>
+*Lab05: A fost implementata partea de networking pentru limbajul Java.* <br>
