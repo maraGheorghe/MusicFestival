@@ -1,4 +1,8 @@
-rootProject.name = 'MusicFestivalMPP-J'
-include 'code'
-include 'gui'
+rootProject.name = 'MusicFestival'
+include 'Client'
+include 'Model'
+include 'Server'
+include 'Persistence'
+include 'Service'
+include 'Networking'
 

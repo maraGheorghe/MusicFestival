@@ -5,5 +5,9 @@ gradle
 .gradle
 build
 .idea
-gui/build
-code/build
+Client/build
+Model/build
+Networking/build
+Persistence/build
+Server/build
+Service/build
