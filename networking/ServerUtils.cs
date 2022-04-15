@@ -1,0 +1,49 @@
+﻿using System;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+
+namespace networking
+{
+    public abstract class AbstractServer
+    {
+        private TcpListener server;
+        private String host;
+        private int port;
+        public AbstractServer(String host, int port)
+        {
+            this.host = host;
+            this.port = port;
+        }
+        public void Start()
+        {
+            IPAddress address = IPAddress.Parse(host);
+            IPEndPoint endPoint = new IPEndPoint(address,port);
+            server=new TcpListener(endPoint);
+            server.Start();
+            while (true)
+            {
+                Console.WriteLine("Waiting for clients ...");
+                TcpClient client = server.AcceptTcpClient();
+                Console.WriteLine("Client connected ...");
+                processRequest(client);
+            }
+        }
+
+        public abstract void processRequest(TcpClient client);
+    }
+
+    public abstract class ConcurrentServer:AbstractServer
+        {
+            public ConcurrentServer(string host, int port) : base(host, port)
+            {}
+            public override void processRequest(TcpClient client)
+            {
+                Thread t = createWorker(client);
+                t.Start();
+            }
+
+            protected abstract Thread createWorker(TcpClient client);
+        }
+   
+}
