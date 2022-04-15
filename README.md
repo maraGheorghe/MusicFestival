@@ -26,3 +26,4 @@ In acest repository exista trei branch-uri:
 *Lab03: Au fost implementate service-urile si validatorii, alaturi de intergfata grafica pentru limbajul Java.* <br>
 *Lab04: Au fost implementate service-urile si validatorii, alaturi de intergfata grafica pentru limbajul C#.* <br>
 *Lab05: A fost implementata partea de networking pentru limbajul Java.* <br>
+*Lab06: A fost implementata partea de networking pentru limbajul C#.* <br>
