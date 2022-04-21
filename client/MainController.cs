@@ -53,8 +53,8 @@ public partial class MainController : Form
                     show.NoOfSoldSeats += ticket.NoOfSeats;
                     show.NoOfAvailableSeats -= ticket.NoOfSeats;
                 }
-            allShowsList.Invoke((Action) InitializeAllShowsList);
-            dateShowsList.Invoke((Action) delegate
+            allShowsList.BeginInvoke((Action) InitializeAllShowsList);
+            dateShowsList.BeginInvoke((Action) delegate
             {
                 dateShowsList.DataSource = null;
                 dateShowsList.DataSource = _dateShowsData;

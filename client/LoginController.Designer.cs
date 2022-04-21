@@ -85,7 +85,7 @@ partial class LoginController
         this.errorLabel.ForeColor = System.Drawing.Color.Firebrick;
         this.errorLabel.Location = new System.Drawing.Point(29, 284);
         this.errorLabel.Name = "errorLabel";
-        this.errorLabel.Size = new System.Drawing.Size(266, 68);
+        this.errorLabel.Size = new System.Drawing.Size(266, 100);
         this.errorLabel.TabIndex = 5;
         this.errorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
         // 
@@ -105,7 +105,7 @@ partial class LoginController
         this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
         this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
         this.loginButton.ForeColor = System.Drawing.Color.White;
-        this.loginButton.Location = new System.Drawing.Point(107, 365);
+        this.loginButton.Location = new System.Drawing.Point(109, 387);
         this.loginButton.Name = "loginButton";
         this.loginButton.Size = new System.Drawing.Size(115, 35);
         this.loginButton.TabIndex = 7;
@@ -118,7 +118,7 @@ partial class LoginController
         this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.BackColor = System.Drawing.SystemColors.Control;
-        this.ClientSize = new System.Drawing.Size(340, 458);
+        this.ClientSize = new System.Drawing.Size(340, 451);
         this.Controls.Add(this.loginButton);
         this.Controls.Add(this.label);
         this.Controls.Add(this.errorLabel);
