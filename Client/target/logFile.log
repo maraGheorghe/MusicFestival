@@ -1381,3 +1381,281 @@ Date: 03 Apr 2022 21:07:23,715 Level: ERROR Class: network.rpc_protocol.ServiceR
 Date: 03 Apr 2022 21:07:26,253 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: stefan
 Date: 03 Apr 2022 21:07:26,253 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
 Date: 03 Apr 2022 21:07:26,256 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy Line: 77 Message: sendRequest - java.net.SocketException: Socket closed
+Date: 05 Apr 2022 10:29:05,441 Level: INFO  Class: gui.StartRpcClient Line: 23 Message: start - Starting client...
+Date: 05 Apr 2022 10:29:05,441 Level: INFO  Class: gui.StartRpcClient Line: 23 Message: start - Starting client...
+Date: 05 Apr 2022 10:29:05,452 Level: INFO  Class: gui.StartRpcClient Line: 29 Message: start - Client properties set.
+Date: 05 Apr 2022 10:29:05,452 Level: INFO  Class: gui.StartRpcClient Line: 29 Message: start - Client properties set.
+Date: 05 Apr 2022 10:29:05,455 Level: INFO  Class: gui.StartRpcClient Line: 45 Message: start - Using server IP: localhost and server port: 22126.
+Date: 05 Apr 2022 10:29:05,455 Level: INFO  Class: gui.StartRpcClient Line: 45 Message: start - Using server IP: localhost and server port: 22126.
+Date: 05 Apr 2022 10:29:05,457 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 34 Message: <init> - Initializing ServiceRpcProxy.
+Date: 05 Apr 2022 10:29:05,458 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 34 Message: <init> - Initializing ServiceRpcProxy.
+Date: 05 Apr 2022 10:29:26,429 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 122 Message: login - Enter Logging in user: stefan
+Date: 05 Apr 2022 10:29:26,429 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 41 Message: initializeConnection - Enter Initializing connection.
+Date: 05 Apr 2022 10:29:26,461 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 96 Message: startReader - Enter Starting reading.
+Date: 05 Apr 2022 10:29:26,462 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 99 Message: startReader - Exit
+Date: 05 Apr 2022 10:29:26,462 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 49 Message: initializeConnection - Exit
+Date: 05 Apr 2022 10:29:26,464 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGIN, data= model.User@1f}.
+Date: 05 Apr 2022 10:29:26,471 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:26,471 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:26,738 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:26,738 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 129 Message: login - Exit
+Date: 05 Apr 2022 10:29:26,744 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:29:26,745 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:29:26,746 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:26,746 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:27,813 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:36,368 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 122 Message: login - Enter Logging in user: luca
+Date: 05 Apr 2022 10:29:36,369 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 41 Message: initializeConnection - Enter Initializing connection.
+Date: 05 Apr 2022 10:29:36,384 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 96 Message: startReader - Enter Starting reading.
+Date: 05 Apr 2022 10:29:36,385 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 99 Message: startReader - Exit
+Date: 05 Apr 2022 10:29:36,386 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 49 Message: initializeConnection - Exit
+Date: 05 Apr 2022 10:29:36,389 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGIN, data= model.User@1f}.
+Date: 05 Apr 2022 10:29:36,396 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:36,396 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:36,402 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:36,402 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 129 Message: login - Exit
+Date: 05 Apr 2022 10:29:36,407 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:29:36,407 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:29:36,408 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:36,408 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:37,450 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:49,312 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 185 Message: saveTicket - Enter Saving ticket...
+Date: 05 Apr 2022 10:29:49,313 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= BUY_TICKET, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:29:49,320 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:49,320 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:49,340 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:49,343 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:29:49,343 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:29:49,344 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 10:29:49,345 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 10:29:49,345 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 10:29:49,346 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:29:49,346 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 10:29:49,347 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:29:49,347 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:49,347 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:49,348 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:29:49,348 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:29:49,349 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:49,349 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:49,358 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:49,359 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 10:29:49,359 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 10:29:49,362 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:49,363 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:50,364 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:50,366 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 10:29:50,366 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 10:29:50,368 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:50,368 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:50,368 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:51,377 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:58,977 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 185 Message: saveTicket - Enter Saving ticket...
+Date: 05 Apr 2022 10:29:58,978 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= BUY_TICKET, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:29:58,979 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:58,980 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:58,988 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:58,989 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:29:58,990 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 10:29:58,990 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:29:58,991 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 10:29:58,991 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 10:29:58,991 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 10:29:58,991 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:29:58,991 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:29:58,992 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:58,992 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:58,994 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:29:58,994 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:29:58,994 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:58,994 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:29:59,005 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:29:59,006 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 10:29:59,007 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 10:29:59,007 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:29:59,008 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:00,014 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:00,015 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 10:30:00,015 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 10:30:00,016 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:00,016 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:00,021 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:01,026 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:08,053 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 185 Message: saveTicket - Enter Saving ticket...
+Date: 05 Apr 2022 10:30:08,053 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= BUY_TICKET, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:30:08,054 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:08,054 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:08,064 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:08,065 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:30:08,065 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 10:30:08,065 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 10:30:08,066 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:30:08,066 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:30:08,067 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:08,067 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 10:30:08,067 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:08,067 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 10:30:08,068 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 10:30:08,068 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 10:30:08,068 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 10:30:08,069 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:08,069 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:08,078 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:08,079 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 10:30:08,080 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 10:30:08,080 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:08,080 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:09,097 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:09,099 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 10:30:09,099 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:09,100 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 10:30:09,100 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:09,100 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:10,113 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:13,782 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: stefan
+Date: 05 Apr 2022 10:30:13,782 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
+Date: 05 Apr 2022 10:30:13,783 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:13,783 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:13,785 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:13,785 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 56 Message: closeConnection - Enter Closing connection.
+Date: 05 Apr 2022 10:30:13,786 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 63 Message: closeConnection - Exit
+Date: 05 Apr 2022 10:30:13,786 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 152 Message: logout - Exit
+Date: 05 Apr 2022 10:30:13,790 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy$ReaderThread Line: 217 Message: run - java.net.SocketException: Socket closed
+Date: 05 Apr 2022 10:30:15,613 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: stefan
+Date: 05 Apr 2022 10:30:15,614 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
+Date: 05 Apr 2022 10:30:15,618 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy Line: 77 Message: sendRequest - java.net.SocketException: Socket closed
+Date: 05 Apr 2022 10:30:21,920 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: luca
+Date: 05 Apr 2022 10:30:21,920 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
+Date: 05 Apr 2022 10:30:21,920 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 10:30:21,921 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 10:30:21,922 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 10:30:21,922 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 56 Message: closeConnection - Enter Closing connection.
+Date: 05 Apr 2022 10:30:21,923 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 63 Message: closeConnection - Exit
+Date: 05 Apr 2022 10:30:21,923 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 152 Message: logout - Exit
+Date: 05 Apr 2022 10:30:21,925 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy$ReaderThread Line: 217 Message: run - java.net.SocketException: Socket closed
+Date: 05 Apr 2022 13:16:14,524 Level: INFO  Class: gui.StartRpcClient Line: 23 Message: start - Starting client...
+Date: 05 Apr 2022 13:16:14,532 Level: INFO  Class: gui.StartRpcClient Line: 29 Message: start - Client properties set.
+Date: 05 Apr 2022 13:16:14,538 Level: INFO  Class: gui.StartRpcClient Line: 45 Message: start - Using server IP: localhost and server port: 22126.
+Date: 05 Apr 2022 13:16:14,542 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 34 Message: <init> - Initializing ServiceRpcProxy.
+Date: 05 Apr 2022 13:16:15,396 Level: INFO  Class: gui.StartRpcClient Line: 23 Message: start - Starting client...
+Date: 05 Apr 2022 13:16:15,404 Level: INFO  Class: gui.StartRpcClient Line: 29 Message: start - Client properties set.
+Date: 05 Apr 2022 13:16:15,409 Level: INFO  Class: gui.StartRpcClient Line: 45 Message: start - Using server IP: localhost and server port: 22126.
+Date: 05 Apr 2022 13:16:15,417 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 34 Message: <init> - Initializing ServiceRpcProxy.
+Date: 05 Apr 2022 13:16:21,484 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 122 Message: login - Enter Logging in user: stefan
+Date: 05 Apr 2022 13:16:21,485 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 41 Message: initializeConnection - Enter Initializing connection.
+Date: 05 Apr 2022 13:16:21,516 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 96 Message: startReader - Enter Starting reading.
+Date: 05 Apr 2022 13:16:21,519 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 99 Message: startReader - Exit
+Date: 05 Apr 2022 13:16:21,520 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 49 Message: initializeConnection - Exit
+Date: 05 Apr 2022 13:16:21,523 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGIN, data= model.User@1f}.
+Date: 05 Apr 2022 13:16:21,533 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:21,533 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:22,111 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:22,111 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 129 Message: login - Exit
+Date: 05 Apr 2022 13:16:22,123 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 13:16:22,124 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 13:16:22,125 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:22,125 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:23,262 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:30,076 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 122 Message: login - Enter Logging in user: luca
+Date: 05 Apr 2022 13:16:30,077 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 41 Message: initializeConnection - Enter Initializing connection.
+Date: 05 Apr 2022 13:16:30,110 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 96 Message: startReader - Enter Starting reading.
+Date: 05 Apr 2022 13:16:30,115 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 99 Message: startReader - Exit
+Date: 05 Apr 2022 13:16:30,115 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 49 Message: initializeConnection - Exit
+Date: 05 Apr 2022 13:16:30,120 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGIN, data= model.User@1f}.
+Date: 05 Apr 2022 13:16:30,135 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:30,135 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:30,150 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:30,151 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 129 Message: login - Exit
+Date: 05 Apr 2022 13:16:30,164 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 13:16:30,165 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 13:16:30,166 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:30,166 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:31,237 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:57,840 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 185 Message: saveTicket - Enter Saving ticket...
+Date: 05 Apr 2022 13:16:57,842 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= BUY_TICKET, data= model.Ticket@1f}.
+Date: 05 Apr 2022 13:16:57,856 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:57,857 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:57,893 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:57,899 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 13:16:57,902 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 13:16:57,905 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 13:16:57,905 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 13:16:57,908 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 13:16:57,909 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 13:16:57,909 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 13:16:57,910 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:57,911 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 13:16:57,912 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:57,913 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 13:16:57,915 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 13:16:57,916 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:57,917 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:57,953 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:57,956 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 13:16:57,957 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 13:16:57,966 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:57,967 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:58,947 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:58,949 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 13:16:58,950 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 13:16:58,953 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:16:58,954 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:16:58,962 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:16:59,957 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:12,225 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 185 Message: saveTicket - Enter Saving ticket...
+Date: 05 Apr 2022 13:17:12,226 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= BUY_TICKET, data= model.Ticket@1f}.
+Date: 05 Apr 2022 13:17:12,232 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:12,233 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:12,257 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:12,261 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 13:17:12,263 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 13:17:12,264 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 13:17:12,265 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 103 Message: handleUpdate - Enter Handling update to the response: Response {type= TICKET_BOUGHT, data= model.Ticket@1f}.
+Date: 05 Apr 2022 13:17:12,266 Level: INFO  Class: network.rpc_protocol.ServiceRpcProxy Line: 106 Message: handleUpdate - Ticket bought: model.Ticket@1f.
+Date: 05 Apr 2022 13:17:12,267 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 109 Message: handleUpdate - Exit
+Date: 05 Apr 2022 13:17:12,268 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 13:17:12,269 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 13:17:12,271 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:12,272 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:12,273 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 157 Message: findAllPerformances - Enter Finding all performances.
+Date: 05 Apr 2022 13:17:12,275 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES, data= null}.
+Date: 05 Apr 2022 13:17:12,276 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:12,278 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:12,307 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:12,311 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 13:17:12,312 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 13:17:12,314 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:12,315 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:13,293 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:13,296 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-04-05.
+Date: 05 Apr 2022 13:17:13,297 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-04-05}.
+Date: 05 Apr 2022 13:17:13,297 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:13,298 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:13,328 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:14,309 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:31,467 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 164 Message: findAllPerformancesForADay - Enter Finding all performances for day 2022-08-26.
+Date: 05 Apr 2022 13:17:31,468 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= GET_PERFORMANCES_BY_DATE, data= 2022-08-26}.
+Date: 05 Apr 2022 13:17:31,469 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:31,470 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:31,487 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:34,604 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: luca
+Date: 05 Apr 2022 13:17:34,604 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
+Date: 05 Apr 2022 13:17:34,605 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:34,606 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:34,611 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:34,612 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 56 Message: closeConnection - Enter Closing connection.
+Date: 05 Apr 2022 13:17:34,615 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 63 Message: closeConnection - Exit
+Date: 05 Apr 2022 13:17:34,616 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 152 Message: logout - Exit
+Date: 05 Apr 2022 13:17:34,621 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy$ReaderThread Line: 217 Message: run - java.net.SocketException: Socket closed
+Date: 05 Apr 2022 13:17:36,144 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: luca
+Date: 05 Apr 2022 13:17:36,145 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
+Date: 05 Apr 2022 13:17:36,152 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy Line: 77 Message: sendRequest - java.net.SocketException: Socket closed
+Date: 05 Apr 2022 13:17:37,261 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 142 Message: logout - Enter Logging out user: stefan
+Date: 05 Apr 2022 13:17:37,262 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 71 Message: sendRequest - Enter Sending request: Request {type= LOGOUT, data= model.User@1f}.
+Date: 05 Apr 2022 13:17:37,264 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 75 Message: sendRequest - Exit
+Date: 05 Apr 2022 13:17:37,265 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 83 Message: readResponse - Enter Reading response.
+Date: 05 Apr 2022 13:17:37,268 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 91 Message: readResponse - Exit
+Date: 05 Apr 2022 13:17:37,269 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 56 Message: closeConnection - Enter Closing connection.
+Date: 05 Apr 2022 13:17:37,273 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 63 Message: closeConnection - Exit
+Date: 05 Apr 2022 13:17:37,274 Level: TRACE Class: network.rpc_protocol.ServiceRpcProxy Line: 152 Message: logout - Exit
+Date: 05 Apr 2022 13:17:37,278 Level: ERROR Class: network.rpc_protocol.ServiceRpcProxy$ReaderThread Line: 217 Message: run - java.net.SocketException: Socket closed
