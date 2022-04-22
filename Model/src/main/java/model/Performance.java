@@ -1,14 +1,24 @@
 package model;
 
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Set;
 
+@javax.persistence.Entity
+@Table(name = "performances")
 public class Performance extends Entity {
     private LocalDateTime date;
     private String place;
     private Integer noOfAvailableSeats;
     private Integer noOfSoldSeats;
     private String artist;
+    private Integer noOfSeats;
+    private Set<Ticket> tickets;
+
+    public Performance() {}
 
     public Performance(LocalDateTime date, String place, Integer noOfAvailableSeats, Integer noOfSoldSeats, String artist) {
         this.date = date;
@@ -27,6 +37,17 @@ public class Performance extends Entity {
         this.artist = artist;
     }
 
+    @Id
+    @Column(name = "performance_id")
+    @GeneratedValue(generator="increment")
+    @GenericGenerator(name="increment", strategy = "increment")
+    @Override
+    public Long getID() {
+        return super.getID();
+    }
+
+    @Column(name = "performance_date")
+    @Convert(converter = DateToString.class)
     public LocalDateTime getDate() {
         return date;
     }
@@ -43,6 +64,7 @@ public class Performance extends Entity {
         this.place = place;
     }
 
+    @Transient
     public Integer getNoOfAvailableSeats() {
         return noOfAvailableSeats;
     }
@@ -51,6 +73,7 @@ public class Performance extends Entity {
         this.noOfAvailableSeats = noOfAvailableSeats;
     }
 
+    @Transient
     public Integer getNoOfSoldSeats() {
         return noOfSoldSeats;
     }
@@ -63,8 +86,28 @@ public class Performance extends Entity {
         return artist;
     }
 
-    public void setArtists(String artist) {
+    public void setArtist(String artist) {
         this.artist = artist;
+    }
+
+    @Column(name = "no_of_seats")
+    public Integer getNoOfSeats() {
+        return noOfSeats;
+    }
+
+    public void setNoOfSeats(Integer noOfSeats) {
+        this.noOfSeats = noOfSeats;
+    }
+
+    @OneToMany(mappedBy="performance")
+    public Set<Ticket> getTickets() {
+        return tickets;
+    }
+
+    public void setTickets(Set<Ticket> tickets) {
+        noOfSoldSeats = tickets.stream().map(Ticket::getNoOfSeats).reduce(Integer::sum).orElse(0);
+        this.noOfAvailableSeats = noOfSeats - noOfSoldSeats;
+        this.tickets = tickets;
     }
 
     @Override

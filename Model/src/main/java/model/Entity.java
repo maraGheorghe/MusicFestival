@@ -5,6 +5,8 @@ import java.util.Objects;
 
 public class Entity implements Serializable {
 
+    public Entity() {}
+
     private Long ID;
 
     public Long getID() {
