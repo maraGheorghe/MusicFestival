@@ -19,6 +19,7 @@ dependencies {
     implementation 'org.apache.logging.log4j:log4j-api:2.17.2'
     implementation 'org.apache.logging.log4j:log4j-core:2.17.2'
     runtimeOnly group: 'org.xerial', name: 'sqlite-jdbc', version: '3.36.0.3'
+    implementation 'org.springframework:spring-context:4.3.8.RELEASE'
     implementation project (':Model')
 }
 

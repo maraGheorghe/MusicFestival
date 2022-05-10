@@ -1,6 +1,10 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import org.hibernate.annotations.GenericGenerator;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -10,6 +14,8 @@ import java.util.Set;
 @javax.persistence.Entity
 @Table(name = "performances")
 public class Performance extends Entity {
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime date;
     private String place;
     private Integer noOfAvailableSeats;
@@ -47,7 +53,6 @@ public class Performance extends Entity {
     }
 
     @Column(name = "performance_date")
-    @Convert(converter = DateToString.class)
     public LocalDateTime getDate() {
         return date;
     }
@@ -90,6 +95,7 @@ public class Performance extends Entity {
         this.artist = artist;
     }
 
+    @JsonIgnore
     @Column(name = "no_of_seats")
     public Integer getNoOfSeats() {
         return noOfSeats;
@@ -99,6 +105,7 @@ public class Performance extends Entity {
         this.noOfSeats = noOfSeats;
     }
 
+    @JsonIgnore
     @OneToMany(mappedBy="performance")
     public Set<Ticket> getTickets() {
         return tickets;
