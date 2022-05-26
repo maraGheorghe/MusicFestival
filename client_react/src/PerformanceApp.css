@@ -1,0 +1,72 @@
+.PerformanceApp {
+  text-align: center;
+  align-content: center;
+  color:deeppink;
+}
+
+.PerformanceApp-h1 {
+  text-align: center;
+  font-family: Algerian, serif;
+  font-size: large;
+}
+
+.PerformanceForm {
+  padding: 20px;
+}
+
+.PerformanceTable {
+  text-align: center;
+  font-family: serif;
+  font-size: 18px;
+  color: deeppink;
+}
+
+table.center {
+  margin: 50px auto;
+}
+
+table.center th.headers {
+  border: solid pink 5px;
+  width: auto;
+  font-size: larger;
+}
+
+td.elems {
+  border: solid pink 3px;
+  font-size: medium;
+}
+
+form input.buttons {
+  background-color: pink;
+  padding: 10px;
+  margin: 5px;
+  font-size: medium;
+  border: white;
+}
+
+button.buttons {
+  background-color: pink;
+  padding: 10px;
+  margin: 5px;
+  font-size: medium;
+  border: white;
+}
+
+label {
+  text-align: center;
+  font-family: serif;
+  font-size: 18px;
+  color: deeppink;
+}
+
+input {
+  font-size: 18px;
+  border: solid pink 3px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.form {
+  text-align: center;
+  align-content: center;
+}

@@ -1,0 +1,1 @@
+export const FESTIVAL_PERFORMANCES_BASE_URL='http://localhost:8080/music-festival/performances';
