@@ -1,0 +1,240 @@
+Date: 26 May 2022 16:20:23,567 Level: INFO  Class: StartRpcServer Line: 26 Message: main - Server properties set.
+Date: 26 May 2022 16:20:23,575 Level: INFO  Class: repository.RepositoryUser Line: 25 Message: <init> - Initializing RepositoryUser with properties: {server.port=22126, jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 26 May 2022 16:20:23,577 Level: INFO  Class: repository.RepositoryPerformance Line: 28 Message: <init> - Initializing RepositoryPerformance with properties: {server.port=22126, jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 26 May 2022 16:20:23,578 Level: INFO  Class: repository.RepositoryTicket Line: 28 Message: <init> - Initializing RepositoryTicket with properties: {server.port=22126, jdbc.url=jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db} 
+Date: 26 May 2022 16:20:23,581 Level: INFO  Class: server.ServiceImplementation Line: 34 Message: <init> - Initializing ServiceImplementation.
+Date: 26 May 2022 16:20:23,582 Level: INFO  Class: network.utils.AbstractServer Line: 16 Message: <init> - Initializing AbstractServer.
+Date: 26 May 2022 16:20:23,583 Level: INFO  Class: network.utils.AbstractConcurrentServer Line: 14 Message: <init> - Initializing AbstractConcurrentServer.
+Date: 26 May 2022 16:20:23,583 Level: INFO  Class: network.utils.RpcConcurrentServer Line: 16 Message: <init> - Initializing RpcConcurrentServer.
+Date: 26 May 2022 16:20:23,583 Level: INFO  Class: StartRpcServer Line: 49 Message: main - Starting server...
+Date: 26 May 2022 16:20:23,586 Level: TRACE Class: network.utils.AbstractServer Line: 21 Message: start - Enter Starting AbstractServer.
+Date: 26 May 2022 16:20:23,593 Level: INFO  Class: network.utils.AbstractServer Line: 25 Message: start - Waiting for clients...
+Date: 26 May 2022 16:24:23,857 Level: INFO  Class: network.utils.AbstractServer Line: 28 Message: start - Client connected...
+Date: 26 May 2022 16:24:23,858 Level: TRACE Class: network.utils.AbstractConcurrentServer Line: 22 Message: processRequest - Enter Processing request.
+Date: 26 May 2022 16:24:23,858 Level: TRACE Class: network.utils.RpcConcurrentServer Line: 22 Message: createWorker - Enter Creating worker.
+Date: 26 May 2022 16:24:23,860 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 31 Message: <init> - Initializing ClientRpcWorker.
+Date: 26 May 2022 16:24:23,866 Level: TRACE Class: network.utils.RpcConcurrentServer Line: 24 Message: createWorker - Exit
+Date: 26 May 2022 16:24:23,866 Level: TRACE Class: network.utils.AbstractConcurrentServer Line: 25 Message: processRequest - Exit
+Date: 26 May 2022 16:24:23,867 Level: INFO  Class: network.utils.AbstractServer Line: 25 Message: start - Waiting for clients...
+Date: 26 May 2022 16:24:23,898 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleLOGIN
+Date: 26 May 2022 16:24:23,898 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 114 Message: handleLOGIN - Enter Login request... LOGIN
+Date: 26 May 2022 16:24:23,899 Level: TRACE Class: server.ServiceImplementation Line: 43 Message: login - Enter Login user with username stefan@yahoo.com and password 2212.
+Date: 26 May 2022 16:24:23,900 Level: TRACE Class: repository.RepositoryUser Line: 154 Message: checkConnection - Enter Check connection for user with username: stefan@yahoo.com
+Date: 26 May 2022 16:24:23,900 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:23,900 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 26 May 2022 16:24:23,901 Level: INFO  Class: repository.jdbc.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 26 May 2022 16:24:24,695 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 26 May 2022 16:24:24,696 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5e02b024)
+Date: 26 May 2022 16:24:24,700 Level: TRACE Class: repository.RepositoryUser Line: 171 Message: checkConnection - Exit
+Date: 26 May 2022 16:24:24,701 Level: ERROR Class: server.ServiceImplementation Line: 46 Message: login - Username and password do not match! Please try again.
+Date: 26 May 2022 16:24:24,702 Level: ERROR Class: network.rpc_protocol.ClientRpcWorker Line: 122 Message: handleLOGIN - services.ServiceException: Username and password do not match! Please try again.
+Date: 26 May 2022 16:24:24,702 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= ERROR, data= Username and password do not match! Please try again.}
+Date: 26 May 2022 16:24:24,705 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:24:42,075 Level: INFO  Class: network.utils.AbstractServer Line: 28 Message: start - Client connected...
+Date: 26 May 2022 16:24:42,075 Level: TRACE Class: network.utils.AbstractConcurrentServer Line: 22 Message: processRequest - Enter Processing request.
+Date: 26 May 2022 16:24:42,075 Level: TRACE Class: network.utils.RpcConcurrentServer Line: 22 Message: createWorker - Enter Creating worker.
+Date: 26 May 2022 16:24:42,075 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 31 Message: <init> - Initializing ClientRpcWorker.
+Date: 26 May 2022 16:24:42,076 Level: TRACE Class: network.utils.RpcConcurrentServer Line: 24 Message: createWorker - Exit
+Date: 26 May 2022 16:24:42,076 Level: TRACE Class: network.utils.AbstractConcurrentServer Line: 25 Message: processRequest - Exit
+Date: 26 May 2022 16:24:42,076 Level: INFO  Class: network.utils.AbstractServer Line: 25 Message: start - Waiting for clients...
+Date: 26 May 2022 16:24:42,079 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleLOGIN
+Date: 26 May 2022 16:24:42,080 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 114 Message: handleLOGIN - Enter Login request... LOGIN
+Date: 26 May 2022 16:24:42,080 Level: TRACE Class: server.ServiceImplementation Line: 43 Message: login - Enter Login user with username stefan and password 2212.
+Date: 26 May 2022 16:24:42,081 Level: TRACE Class: repository.RepositoryUser Line: 154 Message: checkConnection - Enter Check connection for user with username: stefan
+Date: 26 May 2022 16:24:42,081 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:42,081 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5e02b024)
+Date: 26 May 2022 16:24:42,082 Level: TRACE Class: repository.RepositoryUser Line: 163 Message: checkConnection - Exit with(model.User@20)
+Date: 26 May 2022 16:24:42,082 Level: TRACE Class: server.ServiceImplementation Line: 50 Message: login - Exit
+Date: 26 May 2022 16:24:42,083 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 118 Message: handleLOGIN - Exit
+Date: 26 May 2022 16:24:42,083 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= OK, data= null}
+Date: 26 May 2022 16:24:42,083 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:24:43,098 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleGET_PERFORMANCES
+Date: 26 May 2022 16:24:43,098 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 142 Message: handleGET_PERFORMANCES - Enter Getting all performances... GET_PERFORMANCES
+Date: 26 May 2022 16:24:43,098 Level: TRACE Class: server.ServiceImplementation Line: 66 Message: findAllPerformances - Enter Finding all the performances.
+Date: 26 May 2022 16:24:43,098 Level: TRACE Class: repository.RepositoryPerformance Line: 131 Message: findAll - Enter Finding all performances.
+Date: 26 May 2022 16:24:43,098 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,099 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 26 May 2022 16:24:43,099 Level: INFO  Class: repository.jdbc.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 26 May 2022 16:24:43,100 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 26 May 2022 16:24:43,100 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,113 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 23.
+Date: 26 May 2022 16:24:43,114 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,114 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,115 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 26.
+Date: 26 May 2022 16:24:43,116 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,116 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,116 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 28.
+Date: 26 May 2022 16:24:43,116 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,117 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,117 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 29.
+Date: 26 May 2022 16:24:43,117 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,118 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,118 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 30.
+Date: 26 May 2022 16:24:43,119 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,119 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,119 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 32.
+Date: 26 May 2022 16:24:43,120 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,120 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,120 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 33.
+Date: 26 May 2022 16:24:43,121 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,121 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,121 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 38.
+Date: 26 May 2022 16:24:43,122 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,122 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,122 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 39.
+Date: 26 May 2022 16:24:43,123 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,123 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,124 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 40.
+Date: 26 May 2022 16:24:43,124 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,125 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,125 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 42.
+Date: 26 May 2022 16:24:43,125 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,125 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,126 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 43.
+Date: 26 May 2022 16:24:43,126 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,126 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,126 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 64.
+Date: 26 May 2022 16:24:43,127 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,127 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,127 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 75.
+Date: 26 May 2022 16:24:43,128 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:43,128 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:43,128 Level: TRACE Class: repository.RepositoryPerformance Line: 146 Message: findAll - Exit
+Date: 26 May 2022 16:24:43,128 Level: TRACE Class: server.ServiceImplementation Line: 68 Message: findAllPerformances - Exit
+Date: 26 May 2022 16:24:43,128 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 145 Message: handleGET_PERFORMANCES - Exit
+Date: 26 May 2022 16:24:43,138 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= GET_PERFORMANCES, data= [Scorpions live at 26/08/2022 12:30 in Cluj, available seats: 47 sold seats: 3 (ID: 23), Scorpions live at 26/08/2022 22:30 in CJ, available seats: 30 sold seats: 20 (ID: 26), Scorpions live at 26/08/2023 22:30 in CJ, available seats: 4983 sold seats: 17 (ID: 28), Artist live at 22/05/2022 12:00 in La Mare, available seats: 0 sold seats: 0 (ID: 29), EC live at 22/06/2022 19:00 in Bontida, available seats: 1990 sold seats: 10 (ID: 30), SLB live at 11/04/2022 19:00 in Acasa, available seats: 0 sold seats: 2 (ID: 32), Scorpions Rock live at 27/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 33), Scorpions live at 26/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 38), Scorpions Super Cool live at 26/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 39), Artist updated live at 13/05/2022 20:04 in place updated, available seats: 100 sold seats: 0 (ID: 40), Artist updated live at 13/05/2022 20:06 in place updated, available seats: 100 sold seats: 0 (ID: 42), Java updated live at 17/05/2022 13:11 in Java updated, available seats: 100 sold seats: 0 (ID: 43), Scorpions And ... live at 26/08/2022 12:30 in Bontida Cluj, available seats: 499 sold seats: 0 (ID: 64), Artist live at 27/05/2022 13:03 in Iasi, available seats: 300 sold seats: 0 (ID: 75)]}
+Date: 26 May 2022 16:24:43,149 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:24:53,457 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleGET_PERFORMANCES_BY_DATE
+Date: 26 May 2022 16:24:53,458 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 154 Message: handleGET_PERFORMANCES_BY_DATE - Enter Getting performances from one day... GET_PERFORMANCES_BY_DATE
+Date: 26 May 2022 16:24:53,458 Level: INFO  Class: server.ServiceImplementation Line: 74 Message: findAllPerformancesForADay - Finding all the performances for the day 2022-08-26.
+Date: 26 May 2022 16:24:53,458 Level: TRACE Class: repository.RepositoryPerformance Line: 161 Message: findAllPerformancesForADay - Enter Finding all performances for the day: 2022-08-26.
+Date: 26 May 2022 16:24:53,459 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:53,459 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:53,460 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 23.
+Date: 26 May 2022 16:24:53,461 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:53,461 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:53,461 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 26.
+Date: 26 May 2022 16:24:53,462 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:53,462 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:53,463 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 38.
+Date: 26 May 2022 16:24:53,463 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:53,463 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:53,464 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 39.
+Date: 26 May 2022 16:24:53,464 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:53,465 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:53,465 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 64.
+Date: 26 May 2022 16:24:53,466 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:24:53,466 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:24:53,466 Level: TRACE Class: repository.RepositoryPerformance Line: 177 Message: findAllPerformancesForADay - Exit
+Date: 26 May 2022 16:24:53,467 Level: TRACE Class: server.ServiceImplementation Line: 76 Message: findAllPerformancesForADay - Exit
+Date: 26 May 2022 16:24:53,467 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 158 Message: handleGET_PERFORMANCES_BY_DATE - Exit
+Date: 26 May 2022 16:24:53,468 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= GET_PERFORMANCES_BY_DATE, data= [Scorpions live at 26/08/2022 12:30 in Cluj, available seats: 47 sold seats: 3 (ID: 23), Scorpions live at 26/08/2022 22:30 in CJ, available seats: 30 sold seats: 20 (ID: 26), Scorpions live at 26/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 38), Scorpions Super Cool live at 26/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 39), Scorpions And ... live at 26/08/2022 12:30 in Bontida Cluj, available seats: 499 sold seats: 0 (ID: 64)]}
+Date: 26 May 2022 16:24:53,470 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:25:00,367 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleBUY_TICKET
+Date: 26 May 2022 16:25:00,368 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 167 Message: handleBUY_TICKET - Enter Buying tickets... BUY_TICKET
+Date: 26 May 2022 16:25:00,368 Level: INFO  Class: server.ServiceImplementation Line: 83 Message: saveTicket - Saving ticket...
+Date: 26 May 2022 16:25:00,368 Level: TRACE Class: repository.RepositoryTicket Line: 34 Message: save - Enter Saving ticket: model.Ticket@1f 
+Date: 26 May 2022 16:25:00,368 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:00,369 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 24 Message: getNewConnection - Enter
+Date: 26 May 2022 16:25:00,369 Level: INFO  Class: repository.jdbc.JDBCUtils Line: 28 Message: getNewConnection - Trying to connect to database jdbc:sqlite:C:\Users\USer\SQLite\musicFestival.db...
+Date: 26 May 2022 16:25:00,370 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 39 Message: getNewConnection - Exit
+Date: 26 May 2022 16:25:00,370 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@213c0133)
+Date: 26 May 2022 16:25:00,377 Level: TRACE Class: repository.RepositoryTicket Line: 41 Message: save - Saved 1 instances.
+Date: 26 May 2022 16:25:00,378 Level: TRACE Class: repository.RepositoryTicket Line: 46 Message: save - Exit
+Date: 26 May 2022 16:25:00,378 Level: TRACE Class: server.ServiceImplementation Line: 90 Message: saveTicket - Exit
+Date: 26 May 2022 16:25:00,378 Level: INFO  Class: server.ServiceImplementation Line: 97 Message: notifyTicketBought - Notifying...
+Date: 26 May 2022 16:25:00,379 Level: TRACE Class: server.ServiceImplementation Line: 110 Message: notifyTicketBought - Exit
+Date: 26 May 2022 16:25:00,380 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 173 Message: handleBUY_TICKET - Exit
+Date: 26 May 2022 16:25:00,380 Level: INFO  Class: server.ServiceImplementation Line: 102 Message: lambda$notifyTicketBought$0 - Notifying.
+Date: 26 May 2022 16:25:00,380 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= OK, data= null}
+Date: 26 May 2022 16:25:00,380 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:25:00,380 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 78 Message: ticketBought - Enter Ticket bought: model.Ticket@1f
+Date: 26 May 2022 16:25:00,381 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= TICKET_BOUGHT, data= model.Ticket@1f}
+Date: 26 May 2022 16:25:00,382 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:25:00,382 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 82 Message: ticketBought - Exit
+Date: 26 May 2022 16:25:01,390 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleGET_PERFORMANCES
+Date: 26 May 2022 16:25:01,391 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 142 Message: handleGET_PERFORMANCES - Enter Getting all performances... GET_PERFORMANCES
+Date: 26 May 2022 16:25:01,392 Level: TRACE Class: server.ServiceImplementation Line: 66 Message: findAllPerformances - Enter Finding all the performances.
+Date: 26 May 2022 16:25:01,392 Level: TRACE Class: repository.RepositoryPerformance Line: 131 Message: findAll - Enter Finding all performances.
+Date: 26 May 2022 16:25:01,393 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,394 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,396 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 23.
+Date: 26 May 2022 16:25:01,397 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,398 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,399 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 26.
+Date: 26 May 2022 16:25:01,400 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,401 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,402 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 28.
+Date: 26 May 2022 16:25:01,402 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,402 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,403 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 29.
+Date: 26 May 2022 16:25:01,405 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,405 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,405 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 30.
+Date: 26 May 2022 16:25:01,406 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,407 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,407 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 32.
+Date: 26 May 2022 16:25:01,408 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,408 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,409 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 33.
+Date: 26 May 2022 16:25:01,409 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,410 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,411 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 38.
+Date: 26 May 2022 16:25:01,411 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,412 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,412 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 39.
+Date: 26 May 2022 16:25:01,412 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,413 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,414 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 40.
+Date: 26 May 2022 16:25:01,414 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,415 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,415 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 42.
+Date: 26 May 2022 16:25:01,415 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,415 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,416 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 43.
+Date: 26 May 2022 16:25:01,416 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,417 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,417 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 64.
+Date: 26 May 2022 16:25:01,417 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,417 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,418 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 75.
+Date: 26 May 2022 16:25:01,418 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:01,418 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:01,418 Level: TRACE Class: repository.RepositoryPerformance Line: 146 Message: findAll - Exit
+Date: 26 May 2022 16:25:01,418 Level: TRACE Class: server.ServiceImplementation Line: 68 Message: findAllPerformances - Exit
+Date: 26 May 2022 16:25:01,418 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 145 Message: handleGET_PERFORMANCES - Exit
+Date: 26 May 2022 16:25:01,419 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= GET_PERFORMANCES, data= [Scorpions live at 26/08/2022 12:30 in Cluj, available seats: 47 sold seats: 3 (ID: 23), Scorpions live at 26/08/2022 22:30 in CJ, available seats: 30 sold seats: 20 (ID: 26), Scorpions live at 26/08/2023 22:30 in CJ, available seats: 4983 sold seats: 17 (ID: 28), Artist live at 22/05/2022 12:00 in La Mare, available seats: 0 sold seats: 0 (ID: 29), EC live at 22/06/2022 19:00 in Bontida, available seats: 1990 sold seats: 10 (ID: 30), SLB live at 11/04/2022 19:00 in Acasa, available seats: 0 sold seats: 2 (ID: 32), Scorpions Rock live at 27/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 33), Scorpions live at 26/08/2022 12:30 in Bontida, available seats: 45 sold seats: 5 (ID: 38), Scorpions Super Cool live at 26/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 39), Artist updated live at 13/05/2022 20:04 in place updated, available seats: 100 sold seats: 0 (ID: 40), Artist updated live at 13/05/2022 20:06 in place updated, available seats: 100 sold seats: 0 (ID: 42), Java updated live at 17/05/2022 13:11 in Java updated, available seats: 100 sold seats: 0 (ID: 43), Scorpions And ... live at 26/08/2022 12:30 in Bontida Cluj, available seats: 499 sold seats: 0 (ID: 64), Artist live at 27/05/2022 13:03 in Iasi, available seats: 300 sold seats: 0 (ID: 75)]}
+Date: 26 May 2022 16:25:01,424 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:25:02,431 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleGET_PERFORMANCES_BY_DATE
+Date: 26 May 2022 16:25:02,433 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 154 Message: handleGET_PERFORMANCES_BY_DATE - Enter Getting performances from one day... GET_PERFORMANCES_BY_DATE
+Date: 26 May 2022 16:25:02,433 Level: INFO  Class: server.ServiceImplementation Line: 74 Message: findAllPerformancesForADay - Finding all the performances for the day 2022-08-26.
+Date: 26 May 2022 16:25:02,433 Level: TRACE Class: repository.RepositoryPerformance Line: 161 Message: findAllPerformancesForADay - Enter Finding all performances for the day: 2022-08-26.
+Date: 26 May 2022 16:25:02,435 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:02,435 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:02,436 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 23.
+Date: 26 May 2022 16:25:02,436 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:02,437 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:02,439 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 26.
+Date: 26 May 2022 16:25:02,439 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:02,439 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:02,441 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 38.
+Date: 26 May 2022 16:25:02,441 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:02,442 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:02,443 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 39.
+Date: 26 May 2022 16:25:02,443 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:02,444 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:02,446 Level: TRACE Class: repository.RepositoryPerformance Line: 53 Message: getNumberOfSoldTickets - Enter Counting the number of sold tickets for the performance witd ID: 64.
+Date: 26 May 2022 16:25:02,446 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 44 Message: getConnection - Enter
+Date: 26 May 2022 16:25:02,446 Level: TRACE Class: repository.jdbc.JDBCUtils Line: 52 Message: getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ada6068)
+Date: 26 May 2022 16:25:02,448 Level: TRACE Class: repository.RepositoryPerformance Line: 177 Message: findAllPerformancesForADay - Exit
+Date: 26 May 2022 16:25:02,448 Level: TRACE Class: server.ServiceImplementation Line: 76 Message: findAllPerformancesForADay - Exit
+Date: 26 May 2022 16:25:02,448 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 158 Message: handleGET_PERFORMANCES_BY_DATE - Exit
+Date: 26 May 2022 16:25:02,449 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= GET_PERFORMANCES_BY_DATE, data= [Scorpions live at 26/08/2022 12:30 in Cluj, available seats: 47 sold seats: 3 (ID: 23), Scorpions live at 26/08/2022 22:30 in CJ, available seats: 30 sold seats: 20 (ID: 26), Scorpions live at 26/08/2022 12:30 in Bontida, available seats: 45 sold seats: 5 (ID: 38), Scorpions Super Cool live at 26/08/2022 12:30 in Bontida, available seats: 50 sold seats: 0 (ID: 39), Scorpions And ... live at 26/08/2022 12:30 in Bontida Cluj, available seats: 499 sold seats: 0 (ID: 64)]}
+Date: 26 May 2022 16:25:02,452 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit
+Date: 26 May 2022 16:25:17,816 Level: INFO  Class: network.rpc_protocol.ClientRpcWorker Line: 94 Message: handleRequest - HandlerName: handleLOGOUT
+Date: 26 May 2022 16:25:17,817 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 128 Message: handleLOGOUT - Enter Logout request... LOGOUT
+Date: 26 May 2022 16:25:17,817 Level: INFO  Class: server.ServiceImplementation Line: 55 Message: logout - Logging out user stefan.
+Date: 26 May 2022 16:25:17,817 Level: TRACE Class: server.ServiceImplementation Line: 61 Message: logout - Exit
+Date: 26 May 2022 16:25:17,817 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 133 Message: handleLOGOUT - Exit
+Date: 26 May 2022 16:25:17,817 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 107 Message: sendResponse - Enter Sending response Response {type= OK, data= null}
+Date: 26 May 2022 16:25:17,818 Level: TRACE Class: network.rpc_protocol.ClientRpcWorker Line: 110 Message: sendResponse - Exit

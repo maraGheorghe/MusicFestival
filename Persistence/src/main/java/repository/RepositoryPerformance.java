@@ -114,14 +114,16 @@ public class RepositoryPerformance implements RepositoryInterfacePerformance {
             preparedStatement.setString(4, performance.getArtist());
             preparedStatement.setLong(5, performance.getID());
             int result = preparedStatement.executeUpdate();
-            logger.trace("Updated {} instances.", result);
+            if(result == 1) {
+                logger.trace("Updated {} instances.", result);
+                return Optional.of(performance);
+            }
+            return Optional.empty();
         } catch (SQLException e) {
             logger.error(e);
             System.err.println("DB error: " + e);
             return Optional.empty();
         }
-        logger.traceExit();
-        return Optional.of(performance);
     }
 
     @Override

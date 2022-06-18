@@ -24,7 +24,7 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainClass = 'gui.StartRpcClient'
+    mainClass = 'ams.StartAMSRpcClient'
 }
 
 javafx {
@@ -45,6 +45,10 @@ dependencies {
     implementation project(':Model')
     implementation project(':Service')
     implementation project(':Networking')
+    implementation "org.springframework:spring-context:$springVersion"
+    implementation "org.springframework:spring-jms:$springVersion"
+    implementation "org.apache.activemq:activemq-spring:$activeMQVersion"
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
 }
 
 test {

@@ -73,6 +73,7 @@ public class Performance extends Entity {
                 " live at " + date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm")) +
                 " in " + place +
                 ", available seats: " + noOfAvailableSeats +
-                " sold seats: " + noOfSoldSeats;
+                " sold seats: " + noOfSoldSeats +
+                " (ID: " + super.getID() + ")";
     }
 }

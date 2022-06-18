@@ -19,6 +19,10 @@ dependencies {
     implementation project(':Service')
     implementation project(':Persistence')
     implementation project(':Networking')
+    implementation "org.springframework:spring-context:$springVersion"
+    implementation "org.springframework:spring-jms:$springVersion"
+    implementation "org.apache.activemq:activemq-spring:$activeMQVersion"
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
 }
 
 test {
@@ -26,5 +30,5 @@ test {
 }
 
 application {
-    mainClass='StartRpcServer'
+    mainClass='StartAMSRpcServer'
 }
