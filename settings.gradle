@@ -1,9 +1,6 @@
 rootProject.name = 'MusicFestival'
-include 'Client'
+include 'ReactClient'
 include 'Model'
-include 'Server'
 include 'Persistence'
-include 'Service'
-include 'Networking'
 include 'RestServices'
 
