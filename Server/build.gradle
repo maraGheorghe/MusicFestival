@@ -25,7 +25,6 @@ dependencies {
     implementation project(':Model')
     implementation project(':Service')
     implementation project(':Persistence')
-    implementation project(':Networking')
 }
 
 protobuf {
